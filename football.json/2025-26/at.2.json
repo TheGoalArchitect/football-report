@@ -1,0 +1,2801 @@
+{
+  "name": "Österr. 2. Liga 2025/26",
+  "matches": [
+    {
+      "round": "1. Round",
+      "date": "2025-08-01",
+      "time": "17:00",
+      "team1": "FC Liefering",
+      "team2": "Austria Lustenau",
+      "score": {
+        "ht": [
+          0,
+          3
+        ],
+        "ft": [
+          0,
+          4
+        ]
+      }
+    },
+    {
+      "round": "1. Round",
+      "date": "2025-08-01",
+      "time": "17:00",
+      "team1": "Kapfenberger SV 1919",
+      "team2": "FC Admira Wacker",
+      "score": {
+        "ht": [
+          0,
+          0
+        ],
+        "ft": [
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "round": "1. Round",
+      "date": "2025-08-01",
+      "time": "17:00",
+      "team1": "SV Stripfing/Weiden",
+      "team2": "First Vienna FC",
+      "score": {
+        "ht": [
+          0,
+          2
+        ],
+        "ft": [
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "round": "1. Round",
+      "date": "2025-08-01",
+      "time": "17:00",
+      "team1": "SKU Amstetten",
+      "team2": "Sturm Graz II",
+      "score": {
+        "ht": [
+          1,
+          0
+        ],
+        "ft": [
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "round": "1. Round",
+      "date": "2025-08-01",
+      "time": "17:00",
+      "team1": "Austria Salzburg",
+      "team2": "SK Austria Klagenfurt",
+      "score": {
+        "ht": [
+          0,
+          1
+        ],
+        "ft": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "round": "1. Round",
+      "date": "2025-08-02",
+      "time": "13:30",
+      "team1": "Schwarz-Weiß Bregenz",
+      "team2": "Rapid Wien II",
+      "score": {
+        "ht": [
+          0,
+          0
+        ],
+        "ft": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "round": "1. Round",
+      "date": "2025-08-02",
+      "time": "19:00",
+      "team1": "Austria Wien II",
+      "team2": "SKN St. Pölten",
+      "score": {
+        "ht": [
+          0,
+          3
+        ],
+        "ft": [
+          1,
+          4
+        ]
+      }
+    },
+    {
+      "round": "1. Round",
+      "date": "2025-08-03",
+      "time": "9:30",
+      "team1": "FC Hertha Wels",
+      "team2": "Floridsdorfer AC",
+      "score": {
+        "ht": [
+          0,
+          2
+        ],
+        "ft": [
+          0,
+          3
+        ]
+      }
+    },
+    {
+      "round": "2. Round",
+      "date": "2025-08-08",
+      "time": "17:00",
+      "team1": "Austria Lustenau",
+      "team2": "FC Hertha Wels",
+      "score": {
+        "ht": [
+          0,
+          0
+        ],
+        "ft": [
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "round": "2. Round",
+      "date": "2025-08-08",
+      "time": "17:00",
+      "team1": "SK Austria Klagenfurt",
+      "team2": "Austria Wien II",
+      "score": {
+        "ht": [
+          1,
+          3
+        ],
+        "ft": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "round": "2. Round",
+      "date": "2025-08-08",
+      "time": "17:00",
+      "team1": "Floridsdorfer AC",
+      "team2": "Kapfenberger SV 1919",
+      "score": {
+        "ht": [
+          2,
+          0
+        ],
+        "ft": [
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "round": "2. Round",
+      "date": "2025-08-08",
+      "time": "17:00",
+      "team1": "SKN St. Pölten",
+      "team2": "Schwarz-Weiß Bregenz",
+      "score": {
+        "ht": [
+          0,
+          0
+        ],
+        "ft": [
+          4,
+          2
+        ]
+      }
+    },
+    {
+      "round": "2. Round",
+      "date": "2025-08-08",
+      "time": "19:30",
+      "team1": "First Vienna FC",
+      "team2": "Austria Salzburg",
+      "score": {
+        "ht": [
+          2,
+          0
+        ],
+        "ft": [
+          3,
+          0
+        ]
+      }
+    },
+    {
+      "round": "2. Round",
+      "date": "2025-08-09",
+      "time": "13:30",
+      "team1": "Rapid Wien II",
+      "team2": "FC Liefering",
+      "score": {
+        "ht": [
+          1,
+          1
+        ],
+        "ft": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "round": "2. Round",
+      "date": "2025-08-09",
+      "time": "19:00",
+      "team1": "Sturm Graz II",
+      "team2": "SV Stripfing/Weiden",
+      "score": {
+        "ht": [
+          4,
+          2
+        ],
+        "ft": [
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "round": "2. Round",
+      "date": "2025-08-10",
+      "time": "9:30",
+      "team1": "FC Admira Wacker",
+      "team2": "SKU Amstetten",
+      "score": {
+        "ht": [
+          0,
+          1
+        ],
+        "ft": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "round": "3. Round",
+      "date": "2025-08-15",
+      "time": "17:00",
+      "team1": "FC Liefering",
+      "team2": "Sturm Graz II",
+      "score": {
+        "ht": [
+          2,
+          0
+        ],
+        "ft": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "round": "3. Round",
+      "date": "2025-08-15",
+      "time": "17:00",
+      "team1": "FC Hertha Wels",
+      "team2": "SKU Amstetten",
+      "score": {
+        "ht": [
+          1,
+          0
+        ],
+        "ft": [
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "round": "3. Round",
+      "date": "2025-08-15",
+      "time": "17:00",
+      "team1": "SKN St. Pölten",
+      "team2": "First Vienna FC",
+      "score": {
+        "ht": [
+          0,
+          1
+        ],
+        "ft": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "round": "3. Round",
+      "date": "2025-08-15",
+      "time": "17:00",
+      "team1": "Schwarz-Weiß Bregenz",
+      "team2": "Floridsdorfer AC",
+      "score": {
+        "ht": [
+          0,
+          1
+        ],
+        "ft": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "round": "3. Round",
+      "date": "2025-08-15",
+      "time": "17:00",
+      "team1": "Kapfenberger SV 1919",
+      "team2": "Austria Lustenau",
+      "score": {
+        "ht": [
+          0,
+          0
+        ],
+        "ft": [
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "round": "3. Round",
+      "date": "2025-08-15",
+      "time": "17:00",
+      "team1": "SV Stripfing/Weiden",
+      "team2": "SK Austria Klagenfurt",
+      "score": {
+        "ht": [
+          0,
+          0
+        ],
+        "ft": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "round": "3. Round",
+      "date": "2025-08-16",
+      "time": "19:00",
+      "team1": "Austria Wien II",
+      "team2": "FC Admira Wacker",
+      "score": {
+        "ht": [
+          0,
+          1
+        ],
+        "ft": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "round": "3. Round",
+      "date": "2025-08-17",
+      "time": "9:30",
+      "team1": "Austria Salzburg",
+      "team2": "Rapid Wien II",
+      "score": {
+        "ht": [
+          1,
+          1
+        ],
+        "ft": [
+          4,
+          2
+        ]
+      }
+    },
+    {
+      "round": "4. Round",
+      "date": "2025-08-22",
+      "time": "17:00",
+      "team1": "Austria Lustenau",
+      "team2": "SV Stripfing/Weiden",
+      "score": {
+        "ht": [
+          0,
+          3
+        ],
+        "ft": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "round": "4. Round",
+      "date": "2025-08-22",
+      "time": "17:00",
+      "team1": "First Vienna FC",
+      "team2": "FC Liefering",
+      "score": {
+        "ft": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "round": "4. Round",
+      "date": "2025-08-22",
+      "time": "17:00",
+      "team1": "SKU Amstetten",
+      "team2": "SKN St. Pölten",
+      "score": {
+        "ft": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "round": "4. Round",
+      "date": "2025-08-22",
+      "time": "19:30",
+      "team1": "FC Admira Wacker",
+      "team2": "FC Hertha Wels",
+      "score": {
+        "ht": [
+          0,
+          0
+        ],
+        "ft": [
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "round": "4. Round",
+      "date": "2025-08-23",
+      "time": "13:30",
+      "team1": "SK Austria Klagenfurt",
+      "team2": "Schwarz-Weiß Bregenz",
+      "score": {
+        "ht": [
+          2,
+          1
+        ],
+        "ft": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "round": "4. Round",
+      "date": "2025-08-23",
+      "time": "19:00",
+      "team1": "Floridsdorfer AC",
+      "team2": "Austria Salzburg",
+      "score": {
+        "ht": [
+          0,
+          0
+        ],
+        "ft": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "round": "4. Round",
+      "date": "2025-08-23",
+      "time": "19:00",
+      "team1": "Sturm Graz II",
+      "team2": "Kapfenberger SV 1919",
+      "score": {
+        "ht": [
+          0,
+          1
+        ],
+        "ft": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "round": "4. Round",
+      "date": "2025-08-24",
+      "time": "9:30",
+      "team1": "Rapid Wien II",
+      "team2": "Austria Wien II",
+      "score": {
+        "ht": [
+          0,
+          2
+        ],
+        "ft": [
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "round": "5. Round",
+      "date": "2025-08-29",
+      "time": "17:00",
+      "team1": "First Vienna FC",
+      "team2": "Austria Lustenau",
+      "score": {
+        "ht": [
+          1,
+          0
+        ],
+        "ft": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "round": "5. Round",
+      "date": "2025-08-29",
+      "time": "17:00",
+      "team1": "FC Hertha Wels",
+      "team2": "Austria Wien II",
+      "score": {
+        "ht": [
+          0,
+          1
+        ],
+        "ft": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "round": "5. Round",
+      "date": "2025-08-29",
+      "time": "19:30",
+      "team1": "SK Austria Klagenfurt",
+      "team2": "FC Admira Wacker",
+      "score": {
+        "ht": [
+          0,
+          0
+        ],
+        "ft": [
+          0,
+          4
+        ]
+      }
+    },
+    {
+      "round": "5. Round",
+      "date": "2025-08-30",
+      "time": "13:30",
+      "team1": "Rapid Wien II",
+      "team2": "SKN St. Pölten",
+      "score": {
+        "ht": [
+          0,
+          0
+        ],
+        "ft": [
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "round": "5. Round",
+      "date": "2025-08-30",
+      "time": "13:30",
+      "team1": "Austria Salzburg",
+      "team2": "SKU Amstetten",
+      "score": {
+        "ht": [
+          2,
+          2
+        ],
+        "ft": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "round": "5. Round",
+      "date": "2025-08-30",
+      "time": "19:00",
+      "team1": "SV Stripfing/Weiden",
+      "team2": "Kapfenberger SV 1919",
+      "score": {
+        "ht": [
+          0,
+          0
+        ],
+        "ft": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "round": "5. Round",
+      "date": "2025-08-30",
+      "time": "19:00",
+      "team1": "Sturm Graz II",
+      "team2": "Floridsdorfer AC",
+      "score": {
+        "ht": [
+          0,
+          1
+        ],
+        "ft": [
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "round": "5. Round",
+      "date": "2025-08-31",
+      "time": "9:30",
+      "team1": "Schwarz-Weiß Bregenz",
+      "team2": "FC Liefering",
+      "score": {
+        "ht": [
+          1,
+          0
+        ],
+        "ft": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "round": "6. Round",
+      "date": "2025-09-12",
+      "time": "17:00",
+      "team1": "Austria Lustenau",
+      "team2": "Sturm Graz II",
+      "score": {
+        "ht": [
+          1,
+          0
+        ],
+        "ft": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "round": "6. Round",
+      "date": "2025-09-12",
+      "time": "17:00",
+      "team1": "SKN St. Pölten",
+      "team2": "SV Stripfing/Weiden",
+      "score": {
+        "ht": [
+          3,
+          0
+        ],
+        "ft": [
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "round": "6. Round",
+      "date": "2025-09-12",
+      "time": "17:00",
+      "team1": "Kapfenberger SV 1919",
+      "team2": "FC Hertha Wels",
+      "score": {
+        "ht": [
+          1,
+          1
+        ],
+        "ft": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "round": "6. Round",
+      "date": "2025-09-12",
+      "time": "17:00",
+      "team1": "SKU Amstetten",
+      "team2": "Rapid Wien II",
+      "score": {
+        "ht": [
+          2,
+          0
+        ],
+        "ft": [
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "round": "6. Round",
+      "date": "2025-09-12",
+      "time": "19:30",
+      "team1": "Floridsdorfer AC",
+      "team2": "SK Austria Klagenfurt",
+      "score": {
+        "ht": [
+          0,
+          0
+        ],
+        "ft": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "round": "6. Round",
+      "date": "2025-09-13",
+      "time": "13:30",
+      "team1": "FC Admira Wacker",
+      "team2": "Schwarz-Weiß Bregenz",
+      "score": {
+        "ht": [
+          0,
+          0
+        ],
+        "ft": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "round": "6. Round",
+      "date": "2025-09-13",
+      "time": "19:00",
+      "team1": "Austria Wien II",
+      "team2": "First Vienna FC",
+      "score": {
+        "ht": [
+          1,
+          1
+        ],
+        "ft": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "round": "6. Round",
+      "date": "2025-09-14",
+      "time": "9:30",
+      "team1": "FC Liefering",
+      "team2": "Austria Salzburg",
+      "score": {
+        "ht": [
+          1,
+          2
+        ],
+        "ft": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "round": "7. Round",
+      "date": "2025-09-19",
+      "time": "17:00",
+      "team1": "Austria Lustenau",
+      "team2": "Floridsdorfer AC",
+      "score": {
+        "ft": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "round": "7. Round",
+      "date": "2025-09-19",
+      "time": "17:00",
+      "team1": "FC Hertha Wels",
+      "team2": "FC Liefering",
+      "score": {
+        "ht": [
+          1,
+          0
+        ],
+        "ft": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "round": "7. Round",
+      "date": "2025-09-19",
+      "time": "17:00",
+      "team1": "SV Stripfing/Weiden",
+      "team2": "Schwarz-Weiß Bregenz",
+      "score": {
+        "ht": [
+          1,
+          0
+        ],
+        "ft": [
+          3,
+          0
+        ]
+      }
+    },
+    {
+      "round": "7. Round",
+      "date": "2025-09-19",
+      "time": "17:00",
+      "team1": "Rapid Wien II",
+      "team2": "FC Admira Wacker",
+      "score": {
+        "ht": [
+          1,
+          0
+        ],
+        "ft": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "round": "7. Round",
+      "date": "2025-09-19",
+      "time": "19:30",
+      "team1": "First Vienna FC",
+      "team2": "SK Austria Klagenfurt",
+      "score": {
+        "ht": [
+          0,
+          1
+        ],
+        "ft": [
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "round": "7. Round",
+      "date": "2025-09-20",
+      "time": "13:30",
+      "team1": "Austria Salzburg",
+      "team2": "SKN St. Pölten",
+      "score": {
+        "ht": [
+          0,
+          0
+        ],
+        "ft": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "round": "7. Round",
+      "date": "2025-09-20",
+      "time": "19:00",
+      "team1": "Sturm Graz II",
+      "team2": "Austria Wien II",
+      "score": {
+        "ht": [
+          0,
+          2
+        ],
+        "ft": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "round": "7. Round",
+      "date": "2025-09-21",
+      "time": "9:30",
+      "team1": "SKU Amstetten",
+      "team2": "Kapfenberger SV 1919",
+      "score": {
+        "ht": [
+          3,
+          0
+        ],
+        "ft": [
+          3,
+          0
+        ]
+      }
+    },
+    {
+      "round": "8. Round",
+      "date": "2025-09-26",
+      "time": "17:00",
+      "team1": "SK Austria Klagenfurt",
+      "team2": "FC Hertha Wels",
+      "score": {
+        "ht": [
+          1,
+          0
+        ],
+        "ft": [
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "round": "8. Round",
+      "date": "2025-09-26",
+      "time": "17:00",
+      "team1": "Floridsdorfer AC",
+      "team2": "Rapid Wien II",
+      "score": {
+        "ht": [
+          0,
+          1
+        ],
+        "ft": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "round": "8. Round",
+      "date": "2025-09-26",
+      "time": "17:00",
+      "team1": "FC Liefering",
+      "team2": "SV Stripfing/Weiden",
+      "score": {
+        "ft": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "round": "8. Round",
+      "date": "2025-09-26",
+      "time": "17:00",
+      "team1": "FC Admira Wacker",
+      "team2": "Austria Lustenau",
+      "score": {
+        "ht": [
+          1,
+          1
+        ],
+        "ft": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "round": "8. Round",
+      "date": "2025-09-26",
+      "time": "17:00",
+      "team1": "SKN St. Pölten",
+      "team2": "Sturm Graz II",
+      "score": {
+        "ht": [
+          1,
+          0
+        ],
+        "ft": [
+          4,
+          0
+        ]
+      }
+    },
+    {
+      "round": "8. Round",
+      "date": "2025-09-26",
+      "time": "17:00",
+      "team1": "Schwarz-Weiß Bregenz",
+      "team2": "Austria Salzburg",
+      "score": {
+        "ft": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "round": "8. Round",
+      "date": "2025-09-27",
+      "time": "19:00",
+      "team1": "Austria Wien II",
+      "team2": "SKU Amstetten",
+      "score": {
+        "ft": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "round": "8. Round",
+      "date": "2025-09-28",
+      "time": "9:30",
+      "team1": "Kapfenberger SV 1919",
+      "team2": "First Vienna FC",
+      "score": {
+        "ht": [
+          0,
+          2
+        ],
+        "ft": [
+          0,
+          3
+        ]
+      }
+    },
+    {
+      "round": "9. Round",
+      "date": "2025-10-03",
+      "time": "17:00",
+      "team1": "SV Stripfing/Weiden",
+      "team2": "FC Admira Wacker",
+      "score": {
+        "ht": [
+          0,
+          1
+        ],
+        "ft": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "round": "9. Round",
+      "date": "2025-10-03",
+      "time": "17:00",
+      "team1": "SKU Amstetten",
+      "team2": "FC Liefering",
+      "score": {
+        "ht": [
+          1,
+          0
+        ],
+        "ft": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "round": "9. Round",
+      "date": "2025-10-03",
+      "time": "19:30",
+      "team1": "First Vienna FC",
+      "team2": "Floridsdorfer AC",
+      "score": {
+        "ht": [
+          0,
+          0
+        ],
+        "ft": [
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "round": "9. Round",
+      "date": "2025-10-04",
+      "time": "13:30",
+      "team1": "Austria Lustenau",
+      "team2": "Austria Wien II",
+      "score": {
+        "ht": [
+          3,
+          0
+        ],
+        "ft": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "round": "9. Round",
+      "date": "2025-10-04",
+      "time": "13:30",
+      "team1": "Austria Salzburg",
+      "team2": "FC Hertha Wels",
+      "score": {
+        "ht": [
+          2,
+          2
+        ],
+        "ft": [
+          4,
+          2
+        ]
+      }
+    },
+    {
+      "round": "9. Round",
+      "date": "2025-10-04",
+      "time": "19:00",
+      "team1": "Sturm Graz II",
+      "team2": "Schwarz-Weiß Bregenz",
+      "score": {
+        "ht": [
+          2,
+          0
+        ],
+        "ft": [
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "round": "9. Round",
+      "date": "2025-10-04",
+      "time": "19:00",
+      "team1": "Rapid Wien II",
+      "team2": "Kapfenberger SV 1919",
+      "score": {
+        "ht": [
+          0,
+          0
+        ],
+        "ft": [
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "round": "9. Round",
+      "date": "2025-10-05",
+      "time": "9:30",
+      "team1": "SK Austria Klagenfurt",
+      "team2": "SKN St. Pölten",
+      "score": {
+        "ht": [
+          1,
+          0
+        ],
+        "ft": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "round": "10. Round",
+      "date": "2025-10-17",
+      "time": "17:00",
+      "team1": "Austria Wien II",
+      "team2": "SV Stripfing/Weiden",
+      "score": {
+        "ht": [
+          0,
+          0
+        ],
+        "ft": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "round": "10. Round",
+      "date": "2025-10-17",
+      "time": "17:00",
+      "team1": "Kapfenberger SV 1919",
+      "team2": "SK Austria Klagenfurt",
+      "score": {
+        "ht": [
+          0,
+          1
+        ],
+        "ft": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "round": "10. Round",
+      "date": "2025-10-17",
+      "time": "19:30",
+      "team1": "SKN St. Pölten",
+      "team2": "Austria Lustenau",
+      "score": {
+        "ht": [
+          0,
+          0
+        ],
+        "ft": [
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "round": "10. Round",
+      "date": "2025-10-18",
+      "time": "13:30",
+      "team1": "Floridsdorfer AC",
+      "team2": "FC Liefering",
+      "score": {
+        "ht": [
+          1,
+          0
+        ],
+        "ft": [
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "round": "10. Round",
+      "date": "2025-10-18",
+      "time": "13:30",
+      "team1": "Schwarz-Weiß Bregenz",
+      "team2": "SKU Amstetten",
+      "score": {
+        "ht": [
+          0,
+          2
+        ],
+        "ft": [
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "round": "10. Round",
+      "date": "2025-10-18",
+      "time": "19:00",
+      "team1": "FC Admira Wacker",
+      "team2": "Austria Salzburg",
+      "score": {
+        "ht": [
+          2,
+          0
+        ],
+        "ft": [
+          4,
+          0
+        ]
+      }
+    },
+    {
+      "round": "10. Round",
+      "date": "2025-10-18",
+      "time": "19:00",
+      "team1": "Sturm Graz II",
+      "team2": "First Vienna FC",
+      "score": {
+        "ht": [
+          0,
+          1
+        ],
+        "ft": [
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "round": "10. Round",
+      "date": "2025-10-19",
+      "time": "9:30",
+      "team1": "FC Hertha Wels",
+      "team2": "Rapid Wien II",
+      "score": {
+        "ht": [
+          1,
+          2
+        ],
+        "ft": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "round": "11. Round",
+      "date": "2025-10-24",
+      "time": "17:00",
+      "team1": "SK Austria Klagenfurt",
+      "team2": "Sturm Graz II",
+      "score": {
+        "ft": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "round": "11. Round",
+      "date": "2025-10-24",
+      "time": "17:00",
+      "team1": "First Vienna FC",
+      "team2": "FC Admira Wacker",
+      "score": {
+        "ht": [
+          0,
+          1
+        ],
+        "ft": [
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "round": "11. Round",
+      "date": "2025-10-24",
+      "time": "17:00",
+      "team1": "FC Liefering",
+      "team2": "SKN St. Pölten",
+      "score": {
+        "ht": [
+          0,
+          0
+        ],
+        "ft": [
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "round": "11. Round",
+      "date": "2025-10-24",
+      "time": "17:00",
+      "team1": "Schwarz-Weiß Bregenz",
+      "team2": "Kapfenberger SV 1919",
+      "score": {
+        "ht": [
+          1,
+          0
+        ],
+        "ft": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "round": "11. Round",
+      "date": "2025-10-24",
+      "time": "17:00",
+      "team1": "SV Stripfing/Weiden",
+      "team2": "FC Hertha Wels",
+      "score": {
+        "ht": [
+          2,
+          1
+        ],
+        "ft": [
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "round": "11. Round",
+      "date": "2025-10-25",
+      "time": "13:30",
+      "team1": "Austria Salzburg",
+      "team2": "Austria Wien II",
+      "score": {
+        "ht": [
+          2,
+          0
+        ],
+        "ft": [
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "round": "11. Round",
+      "date": "2025-10-25",
+      "time": "19:00",
+      "team1": "Rapid Wien II",
+      "team2": "Austria Lustenau",
+      "score": {
+        "ht": [
+          1,
+          0
+        ],
+        "ft": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "round": "11. Round",
+      "date": "2025-10-26",
+      "time": "9:30",
+      "team1": "SKU Amstetten",
+      "team2": "Floridsdorfer AC",
+      "score": {
+        "ht": [
+          0,
+          1
+        ],
+        "ft": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "round": "12. Round",
+      "date": "2025-10-31",
+      "time": "17:00",
+      "team1": "SV Stripfing/Weiden",
+      "team2": "Rapid Wien II",
+      "score": {
+        "ht": [
+          0,
+          3
+        ],
+        "ft": [
+          0,
+          4
+        ]
+      }
+    },
+    {
+      "round": "12. Round",
+      "date": "2025-10-31",
+      "time": "19:30",
+      "team1": "Kapfenberger SV 1919",
+      "team2": "Austria Salzburg",
+      "score": {
+        "ht": [
+          2,
+          0
+        ],
+        "ft": [
+          4,
+          1
+        ]
+      }
+    },
+    {
+      "round": "12. Round",
+      "date": "2025-11-01",
+      "time": "13:30",
+      "team1": "First Vienna FC",
+      "team2": "SKU Amstetten",
+      "score": {
+        "ht": [
+          0,
+          1
+        ],
+        "ft": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "round": "12. Round",
+      "date": "2025-11-01",
+      "time": "13:30",
+      "team1": "FC Hertha Wels",
+      "team2": "Schwarz-Weiß Bregenz",
+      "score": {
+        "ht": [
+          1,
+          1
+        ],
+        "ft": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "round": "12. Round",
+      "date": "2025-11-01",
+      "time": "13:30",
+      "team1": "SKN St. Pölten",
+      "team2": "Floridsdorfer AC",
+      "score": {
+        "ht": [
+          0,
+          2
+        ],
+        "ft": [
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "round": "12. Round",
+      "date": "2025-11-01",
+      "time": "19:00",
+      "team1": "Austria Wien II",
+      "team2": "FC Liefering",
+      "score": {
+        "ht": [
+          0,
+          0
+        ],
+        "ft": [
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "round": "12. Round",
+      "date": "2025-11-01",
+      "time": "19:00",
+      "team1": "Sturm Graz II",
+      "team2": "FC Admira Wacker",
+      "score": {
+        "ht": [
+          0,
+          1
+        ],
+        "ft": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "round": "12. Round",
+      "date": "2025-11-02",
+      "time": "9:30",
+      "team1": "Austria Lustenau",
+      "team2": "SK Austria Klagenfurt",
+      "score": {
+        "ht": [
+          2,
+          0
+        ],
+        "ft": [
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "round": "13. Round",
+      "date": "2025-11-07",
+      "time": "17:00",
+      "team1": "FC Liefering",
+      "team2": "Kapfenberger SV 1919",
+      "score": {
+      }
+    },
+    {
+      "round": "13. Round",
+      "date": "2025-11-07",
+      "time": "17:00",
+      "team1": "FC Hertha Wels",
+      "team2": "First Vienna FC",
+      "score": {
+      }
+    },
+    {
+      "round": "13. Round",
+      "date": "2025-11-07",
+      "time": "17:00",
+      "team1": "SKU Amstetten",
+      "team2": "SV Stripfing/Weiden",
+      "score": {
+      }
+    },
+    {
+      "round": "13. Round",
+      "date": "2025-11-07",
+      "time": "19:30",
+      "team1": "FC Admira Wacker",
+      "team2": "SKN St. Pölten",
+      "score": {
+      }
+    },
+    {
+      "round": "13. Round",
+      "date": "2025-11-08",
+      "time": "13:30",
+      "team1": "Schwarz-Weiß Bregenz",
+      "team2": "Austria Lustenau",
+      "score": {
+      }
+    },
+    {
+      "round": "13. Round",
+      "date": "2025-11-08",
+      "time": "13:30",
+      "team1": "Rapid Wien II",
+      "team2": "SK Austria Klagenfurt",
+      "score": {
+      }
+    },
+    {
+      "round": "13. Round",
+      "date": "2025-11-08",
+      "time": "13:30",
+      "team1": "Austria Salzburg",
+      "team2": "Sturm Graz II",
+      "score": {
+      }
+    },
+    {
+      "round": "13. Round",
+      "date": "2025-11-09",
+      "time": "9:30",
+      "team1": "Floridsdorfer AC",
+      "team2": "Austria Wien II",
+      "score": {
+      }
+    },
+    {
+      "round": "14. Round",
+      "date": "2025-11-21",
+      "time": "17:00",
+      "team1": "SV Stripfing/Weiden",
+      "team2": "Floridsdorfer AC",
+      "score": {
+      }
+    },
+    {
+      "round": "14. Round",
+      "date": "2025-11-21",
+      "time": "19:30",
+      "team1": "First Vienna FC",
+      "team2": "Rapid Wien II",
+      "score": {
+      }
+    },
+    {
+      "round": "14. Round",
+      "date": "2025-11-22",
+      "time": "13:30",
+      "team1": "Austria Lustenau",
+      "team2": "Austria Salzburg",
+      "score": {
+      }
+    },
+    {
+      "round": "14. Round",
+      "date": "2025-11-22",
+      "time": "13:30",
+      "team1": "SK Austria Klagenfurt",
+      "team2": "SKU Amstetten",
+      "score": {
+      }
+    },
+    {
+      "round": "14. Round",
+      "date": "2025-11-22",
+      "time": "13:30",
+      "team1": "FC Admira Wacker",
+      "team2": "FC Liefering",
+      "score": {
+      }
+    },
+    {
+      "round": "14. Round",
+      "date": "2025-11-22",
+      "time": "19:00",
+      "team1": "Austria Wien II",
+      "team2": "Schwarz-Weiß Bregenz",
+      "score": {
+      }
+    },
+    {
+      "round": "14. Round",
+      "date": "2025-11-22",
+      "time": "19:00",
+      "team1": "Sturm Graz II",
+      "team2": "FC Hertha Wels",
+      "score": {
+      }
+    },
+    {
+      "round": "14. Round",
+      "date": "2025-11-23",
+      "time": "9:30",
+      "team1": "SKN St. Pölten",
+      "team2": "Kapfenberger SV 1919",
+      "score": {
+      }
+    },
+    {
+      "round": "15. Round",
+      "date": "2025-11-28",
+      "time": "17:00",
+      "team1": "FC Liefering",
+      "team2": "SK Austria Klagenfurt",
+      "score": {
+      }
+    },
+    {
+      "round": "15. Round",
+      "date": "2025-11-28",
+      "time": "17:00",
+      "team1": "FC Hertha Wels",
+      "team2": "SKN St. Pölten",
+      "score": {
+      }
+    },
+    {
+      "round": "15. Round",
+      "date": "2025-11-28",
+      "time": "17:00",
+      "team1": "Kapfenberger SV 1919",
+      "team2": "Austria Wien II",
+      "score": {
+      }
+    },
+    {
+      "round": "15. Round",
+      "date": "2025-11-28",
+      "time": "17:00",
+      "team1": "SKU Amstetten",
+      "team2": "Austria Lustenau",
+      "score": {
+      }
+    },
+    {
+      "round": "15. Round",
+      "date": "2025-11-28",
+      "time": "19:30",
+      "team1": "Floridsdorfer AC",
+      "team2": "FC Admira Wacker",
+      "score": {
+      }
+    },
+    {
+      "round": "15. Round",
+      "date": "2025-11-29",
+      "time": "13:30",
+      "team1": "Austria Salzburg",
+      "team2": "SV Stripfing/Weiden",
+      "score": {
+      }
+    },
+    {
+      "round": "15. Round",
+      "date": "2025-11-29",
+      "time": "19:00",
+      "team1": "Rapid Wien II",
+      "team2": "Sturm Graz II",
+      "score": {
+      }
+    },
+    {
+      "round": "15. Round",
+      "date": "2025-11-30",
+      "time": "9:30",
+      "team1": "Schwarz-Weiß Bregenz",
+      "team2": "First Vienna FC",
+      "score": {
+      }
+    },
+    {
+      "round": "16. Round",
+      "date": "2025-12-05",
+      "time": "17:00",
+      "team1": "Floridsdorfer AC",
+      "team2": "FC Hertha Wels",
+      "score": {
+      }
+    },
+    {
+      "round": "16. Round",
+      "date": "2025-12-05",
+      "time": "17:00",
+      "team1": "Rapid Wien II",
+      "team2": "Schwarz-Weiß Bregenz",
+      "score": {
+      }
+    },
+    {
+      "round": "16. Round",
+      "date": "2025-12-05",
+      "time": "17:00",
+      "team1": "FC Admira Wacker",
+      "team2": "Kapfenberger SV 1919",
+      "score": {
+      }
+    },
+    {
+      "round": "16. Round",
+      "date": "2025-12-05",
+      "time": "17:00",
+      "team1": "First Vienna FC",
+      "team2": "SV Stripfing/Weiden",
+      "score": {
+      }
+    },
+    {
+      "round": "16. Round",
+      "date": "2025-12-05",
+      "time": "19:30",
+      "team1": "SKN St. Pölten",
+      "team2": "Austria Wien II",
+      "score": {
+      }
+    },
+    {
+      "round": "16. Round",
+      "date": "2025-12-06",
+      "time": "13:30",
+      "team1": "Austria Lustenau",
+      "team2": "FC Liefering",
+      "score": {
+      }
+    },
+    {
+      "round": "16. Round",
+      "date": "2025-12-06",
+      "time": "19:00",
+      "team1": "Sturm Graz II",
+      "team2": "SKU Amstetten",
+      "score": {
+      }
+    },
+    {
+      "round": "16. Round",
+      "date": "2025-12-07",
+      "time": "9:30",
+      "team1": "SK Austria Klagenfurt",
+      "team2": "Austria Salzburg",
+      "score": {
+      }
+    },
+    {
+      "round": "17. Round",
+      "date": "2025-12-12",
+      "time": "17:00",
+      "team1": "FC Hertha Wels",
+      "team2": "Austria Lustenau",
+      "score": {
+      }
+    },
+    {
+      "round": "17. Round",
+      "date": "2025-12-12",
+      "time": "17:00",
+      "team1": "Kapfenberger SV 1919",
+      "team2": "Floridsdorfer AC",
+      "score": {
+      }
+    },
+    {
+      "round": "17. Round",
+      "date": "2025-12-12",
+      "time": "17:00",
+      "team1": "Schwarz-Weiß Bregenz",
+      "team2": "SKN St. Pölten",
+      "score": {
+      }
+    },
+    {
+      "round": "17. Round",
+      "date": "2025-12-12",
+      "time": "17:00",
+      "team1": "SV Stripfing/Weiden",
+      "team2": "Sturm Graz II",
+      "score": {
+      }
+    },
+    {
+      "round": "17. Round",
+      "date": "2025-12-12",
+      "time": "19:30",
+      "team1": "SKU Amstetten",
+      "team2": "FC Admira Wacker",
+      "score": {
+      }
+    },
+    {
+      "round": "17. Round",
+      "date": "2025-12-13",
+      "time": "13:30",
+      "team1": "Austria Salzburg",
+      "team2": "First Vienna FC",
+      "score": {
+      }
+    },
+    {
+      "round": "17. Round",
+      "date": "2025-12-13",
+      "time": "19:00",
+      "team1": "Austria Wien II",
+      "team2": "SK Austria Klagenfurt",
+      "score": {
+      }
+    },
+    {
+      "round": "17. Round",
+      "date": "2025-12-14",
+      "time": "9:30",
+      "team1": "FC Liefering",
+      "team2": "Rapid Wien II",
+      "score": {
+      }
+    },
+    {
+      "round": "18. Round",
+      "date": "2026-02-20",
+      "team1": "Sturm Graz II",
+      "team2": "FC Liefering",
+      "score": {
+      }
+    },
+    {
+      "round": "18. Round",
+      "date": "2026-02-20",
+      "team1": "SKU Amstetten",
+      "team2": "FC Hertha Wels",
+      "score": {
+      }
+    },
+    {
+      "round": "18. Round",
+      "date": "2026-02-20",
+      "team1": "First Vienna FC",
+      "team2": "SKN St. Pölten",
+      "score": {
+      }
+    },
+    {
+      "round": "18. Round",
+      "date": "2026-02-20",
+      "team1": "FC Admira Wacker",
+      "team2": "Austria Wien II",
+      "score": {
+      }
+    },
+    {
+      "round": "18. Round",
+      "date": "2026-02-20",
+      "team1": "Floridsdorfer AC",
+      "team2": "Schwarz-Weiß Bregenz",
+      "score": {
+      }
+    },
+    {
+      "round": "18. Round",
+      "date": "2026-02-20",
+      "team1": "Austria Lustenau",
+      "team2": "Kapfenberger SV 1919",
+      "score": {
+      }
+    },
+    {
+      "round": "18. Round",
+      "date": "2026-02-20",
+      "team1": "SK Austria Klagenfurt",
+      "team2": "SV Stripfing/Weiden",
+      "score": {
+      }
+    },
+    {
+      "round": "18. Round",
+      "date": "2026-02-20",
+      "team1": "Rapid Wien II",
+      "team2": "Austria Salzburg",
+      "score": {
+      }
+    },
+    {
+      "round": "19. Round",
+      "date": "2026-02-27",
+      "team1": "SV Stripfing/Weiden",
+      "team2": "Austria Lustenau",
+      "score": {
+      }
+    },
+    {
+      "round": "19. Round",
+      "date": "2026-02-27",
+      "team1": "Schwarz-Weiß Bregenz",
+      "team2": "SK Austria Klagenfurt",
+      "score": {
+      }
+    },
+    {
+      "round": "19. Round",
+      "date": "2026-02-27",
+      "team1": "FC Liefering",
+      "team2": "First Vienna FC",
+      "score": {
+      }
+    },
+    {
+      "round": "19. Round",
+      "date": "2026-02-27",
+      "team1": "Austria Salzburg",
+      "team2": "Floridsdorfer AC",
+      "score": {
+      }
+    },
+    {
+      "round": "19. Round",
+      "date": "2026-02-27",
+      "team1": "FC Hertha Wels",
+      "team2": "FC Admira Wacker",
+      "score": {
+      }
+    },
+    {
+      "round": "19. Round",
+      "date": "2026-02-27",
+      "team1": "Kapfenberger SV 1919",
+      "team2": "Sturm Graz II",
+      "score": {
+      }
+    },
+    {
+      "round": "19. Round",
+      "date": "2026-02-27",
+      "team1": "SKN St. Pölten",
+      "team2": "SKU Amstetten",
+      "score": {
+      }
+    },
+    {
+      "round": "19. Round",
+      "date": "2026-02-27",
+      "team1": "Austria Wien II",
+      "team2": "Rapid Wien II",
+      "score": {
+      }
+    },
+    {
+      "round": "20. Round",
+      "date": "2026-03-06",
+      "team1": "FC Admira Wacker",
+      "team2": "SK Austria Klagenfurt",
+      "score": {
+      }
+    },
+    {
+      "round": "20. Round",
+      "date": "2026-03-06",
+      "team1": "Austria Lustenau",
+      "team2": "First Vienna FC",
+      "score": {
+      }
+    },
+    {
+      "round": "20. Round",
+      "date": "2026-03-06",
+      "team1": "Austria Wien II",
+      "team2": "FC Hertha Wels",
+      "score": {
+      }
+    },
+    {
+      "round": "20. Round",
+      "date": "2026-03-06",
+      "team1": "FC Liefering",
+      "team2": "Schwarz-Weiß Bregenz",
+      "score": {
+      }
+    },
+    {
+      "round": "20. Round",
+      "date": "2026-03-06",
+      "team1": "Kapfenberger SV 1919",
+      "team2": "SV Stripfing/Weiden",
+      "score": {
+      }
+    },
+    {
+      "round": "20. Round",
+      "date": "2026-03-06",
+      "team1": "Floridsdorfer AC",
+      "team2": "Sturm Graz II",
+      "score": {
+      }
+    },
+    {
+      "round": "20. Round",
+      "date": "2026-03-06",
+      "team1": "SKN St. Pölten",
+      "team2": "Rapid Wien II",
+      "score": {
+      }
+    },
+    {
+      "round": "20. Round",
+      "date": "2026-03-06",
+      "team1": "SKU Amstetten",
+      "team2": "Austria Salzburg",
+      "score": {
+      }
+    },
+    {
+      "round": "21. Round",
+      "date": "2026-03-13",
+      "team1": "Sturm Graz II",
+      "team2": "Austria Lustenau",
+      "score": {
+      }
+    },
+    {
+      "round": "21. Round",
+      "date": "2026-03-13",
+      "team1": "SK Austria Klagenfurt",
+      "team2": "Floridsdorfer AC",
+      "score": {
+      }
+    },
+    {
+      "round": "21. Round",
+      "date": "2026-03-13",
+      "team1": "Austria Salzburg",
+      "team2": "FC Liefering",
+      "score": {
+      }
+    },
+    {
+      "round": "21. Round",
+      "date": "2026-03-13",
+      "team1": "Schwarz-Weiß Bregenz",
+      "team2": "FC Admira Wacker",
+      "score": {
+      }
+    },
+    {
+      "round": "21. Round",
+      "date": "2026-03-13",
+      "team1": "SV Stripfing/Weiden",
+      "team2": "SKN St. Pölten",
+      "score": {
+      }
+    },
+    {
+      "round": "21. Round",
+      "date": "2026-03-13",
+      "team1": "First Vienna FC",
+      "team2": "Austria Wien II",
+      "score": {
+      }
+    },
+    {
+      "round": "21. Round",
+      "date": "2026-03-13",
+      "team1": "FC Hertha Wels",
+      "team2": "Kapfenberger SV 1919",
+      "score": {
+      }
+    },
+    {
+      "round": "21. Round",
+      "date": "2026-03-13",
+      "team1": "Rapid Wien II",
+      "team2": "SKU Amstetten",
+      "score": {
+      }
+    },
+    {
+      "round": "22. Round",
+      "date": "2026-03-20",
+      "team1": "Floridsdorfer AC",
+      "team2": "Austria Lustenau",
+      "score": {
+      }
+    },
+    {
+      "round": "22. Round",
+      "date": "2026-03-20",
+      "team1": "SK Austria Klagenfurt",
+      "team2": "First Vienna FC",
+      "score": {
+      }
+    },
+    {
+      "round": "22. Round",
+      "date": "2026-03-20",
+      "team1": "FC Liefering",
+      "team2": "FC Hertha Wels",
+      "score": {
+      }
+    },
+    {
+      "round": "22. Round",
+      "date": "2026-03-20",
+      "team1": "Schwarz-Weiß Bregenz",
+      "team2": "SV Stripfing/Weiden",
+      "score": {
+      }
+    },
+    {
+      "round": "22. Round",
+      "date": "2026-03-20",
+      "team1": "Austria Wien II",
+      "team2": "Sturm Graz II",
+      "score": {
+      }
+    },
+    {
+      "round": "22. Round",
+      "date": "2026-03-20",
+      "team1": "Kapfenberger SV 1919",
+      "team2": "SKU Amstetten",
+      "score": {
+      }
+    },
+    {
+      "round": "22. Round",
+      "date": "2026-03-20",
+      "team1": "FC Admira Wacker",
+      "team2": "Rapid Wien II",
+      "score": {
+      }
+    },
+    {
+      "round": "22. Round",
+      "date": "2026-03-20",
+      "team1": "SKN St. Pölten",
+      "team2": "Austria Salzburg",
+      "score": {
+      }
+    },
+    {
+      "round": "23. Round",
+      "date": "2026-04-03",
+      "team1": "FC Hertha Wels",
+      "team2": "SK Austria Klagenfurt",
+      "score": {
+      }
+    },
+    {
+      "round": "23. Round",
+      "date": "2026-04-03",
+      "team1": "Rapid Wien II",
+      "team2": "Floridsdorfer AC",
+      "score": {
+      }
+    },
+    {
+      "round": "23. Round",
+      "date": "2026-04-03",
+      "team1": "SV Stripfing/Weiden",
+      "team2": "FC Liefering",
+      "score": {
+      }
+    },
+    {
+      "round": "23. Round",
+      "date": "2026-04-03",
+      "team1": "Austria Lustenau",
+      "team2": "FC Admira Wacker",
+      "score": {
+      }
+    },
+    {
+      "round": "23. Round",
+      "date": "2026-04-03",
+      "team1": "Sturm Graz II",
+      "team2": "SKN St. Pölten",
+      "score": {
+      }
+    },
+    {
+      "round": "23. Round",
+      "date": "2026-04-03",
+      "team1": "SKU Amstetten",
+      "team2": "Austria Wien II",
+      "score": {
+      }
+    },
+    {
+      "round": "23. Round",
+      "date": "2026-04-03",
+      "team1": "Austria Salzburg",
+      "team2": "Schwarz-Weiß Bregenz",
+      "score": {
+      }
+    },
+    {
+      "round": "23. Round",
+      "date": "2026-04-03",
+      "team1": "First Vienna FC",
+      "team2": "Kapfenberger SV 1919",
+      "score": {
+      }
+    },
+    {
+      "round": "24. Round",
+      "date": "2026-04-06",
+      "team1": "Austria Wien II",
+      "team2": "Austria Lustenau",
+      "score": {
+      }
+    },
+    {
+      "round": "24. Round",
+      "date": "2026-04-06",
+      "team1": "SKN St. Pölten",
+      "team2": "SK Austria Klagenfurt",
+      "score": {
+      }
+    },
+    {
+      "round": "24. Round",
+      "date": "2026-04-06",
+      "team1": "Floridsdorfer AC",
+      "team2": "First Vienna FC",
+      "score": {
+      }
+    },
+    {
+      "round": "24. Round",
+      "date": "2026-04-06",
+      "team1": "FC Admira Wacker",
+      "team2": "SV Stripfing/Weiden",
+      "score": {
+      }
+    },
+    {
+      "round": "24. Round",
+      "date": "2026-04-06",
+      "team1": "Schwarz-Weiß Bregenz",
+      "team2": "Sturm Graz II",
+      "score": {
+      }
+    },
+    {
+      "round": "24. Round",
+      "date": "2026-04-06",
+      "team1": "FC Liefering",
+      "team2": "SKU Amstetten",
+      "score": {
+      }
+    },
+    {
+      "round": "24. Round",
+      "date": "2026-04-06",
+      "team1": "Kapfenberger SV 1919",
+      "team2": "Rapid Wien II",
+      "score": {
+      }
+    },
+    {
+      "round": "24. Round",
+      "date": "2026-04-06",
+      "team1": "FC Hertha Wels",
+      "team2": "Austria Salzburg",
+      "score": {
+      }
+    },
+    {
+      "round": "25. Round",
+      "date": "2026-04-10",
+      "team1": "FC Liefering",
+      "team2": "Floridsdorfer AC",
+      "score": {
+      }
+    },
+    {
+      "round": "25. Round",
+      "date": "2026-04-10",
+      "team1": "Austria Salzburg",
+      "team2": "FC Admira Wacker",
+      "score": {
+      }
+    },
+    {
+      "round": "25. Round",
+      "date": "2026-04-10",
+      "team1": "Rapid Wien II",
+      "team2": "FC Hertha Wels",
+      "score": {
+      }
+    },
+    {
+      "round": "25. Round",
+      "date": "2026-04-10",
+      "team1": "Austria Lustenau",
+      "team2": "SKN St. Pölten",
+      "score": {
+      }
+    },
+    {
+      "round": "25. Round",
+      "date": "2026-04-10",
+      "team1": "SV Stripfing/Weiden",
+      "team2": "Austria Wien II",
+      "score": {
+      }
+    },
+    {
+      "round": "25. Round",
+      "date": "2026-04-10",
+      "team1": "SKU Amstetten",
+      "team2": "Schwarz-Weiß Bregenz",
+      "score": {
+      }
+    },
+    {
+      "round": "25. Round",
+      "date": "2026-04-10",
+      "team1": "SK Austria Klagenfurt",
+      "team2": "Kapfenberger SV 1919",
+      "score": {
+      }
+    },
+    {
+      "round": "25. Round",
+      "date": "2026-04-10",
+      "team1": "First Vienna FC",
+      "team2": "Sturm Graz II",
+      "score": {
+      }
+    },
+    {
+      "round": "26. Round",
+      "date": "2026-04-17",
+      "team1": "Sturm Graz II",
+      "team2": "SK Austria Klagenfurt",
+      "score": {
+      }
+    },
+    {
+      "round": "26. Round",
+      "date": "2026-04-17",
+      "team1": "FC Admira Wacker",
+      "team2": "First Vienna FC",
+      "score": {
+      }
+    },
+    {
+      "round": "26. Round",
+      "date": "2026-04-17",
+      "team1": "SKN St. Pölten",
+      "team2": "FC Liefering",
+      "score": {
+      }
+    },
+    {
+      "round": "26. Round",
+      "date": "2026-04-17",
+      "team1": "Kapfenberger SV 1919",
+      "team2": "Schwarz-Weiß Bregenz",
+      "score": {
+      }
+    },
+    {
+      "round": "26. Round",
+      "date": "2026-04-17",
+      "team1": "FC Hertha Wels",
+      "team2": "SV Stripfing/Weiden",
+      "score": {
+      }
+    },
+    {
+      "round": "26. Round",
+      "date": "2026-04-17",
+      "team1": "Floridsdorfer AC",
+      "team2": "SKU Amstetten",
+      "score": {
+      }
+    },
+    {
+      "round": "26. Round",
+      "date": "2026-04-17",
+      "team1": "Austria Lustenau",
+      "team2": "Rapid Wien II",
+      "score": {
+      }
+    },
+    {
+      "round": "26. Round",
+      "date": "2026-04-17",
+      "team1": "Austria Wien II",
+      "team2": "Austria Salzburg",
+      "score": {
+      }
+    },
+    {
+      "round": "27. Round",
+      "date": "2026-04-24",
+      "team1": "SK Austria Klagenfurt",
+      "team2": "Austria Lustenau",
+      "score": {
+      }
+    },
+    {
+      "round": "27. Round",
+      "date": "2026-04-24",
+      "team1": "SKU Amstetten",
+      "team2": "First Vienna FC",
+      "score": {
+      }
+    },
+    {
+      "round": "27. Round",
+      "date": "2026-04-24",
+      "team1": "Schwarz-Weiß Bregenz",
+      "team2": "FC Hertha Wels",
+      "score": {
+      }
+    },
+    {
+      "round": "27. Round",
+      "date": "2026-04-24",
+      "team1": "Floridsdorfer AC",
+      "team2": "SKN St. Pölten",
+      "score": {
+      }
+    },
+    {
+      "round": "27. Round",
+      "date": "2026-04-24",
+      "team1": "FC Liefering",
+      "team2": "Austria Wien II",
+      "score": {
+      }
+    },
+    {
+      "round": "27. Round",
+      "date": "2026-04-24",
+      "team1": "Austria Salzburg",
+      "team2": "Kapfenberger SV 1919",
+      "score": {
+      }
+    },
+    {
+      "round": "27. Round",
+      "date": "2026-04-24",
+      "team1": "Rapid Wien II",
+      "team2": "SV Stripfing/Weiden",
+      "score": {
+      }
+    },
+    {
+      "round": "27. Round",
+      "date": "2026-04-24",
+      "team1": "FC Admira Wacker",
+      "team2": "Sturm Graz II",
+      "score": {
+      }
+    },
+    {
+      "round": "28. Round",
+      "date": "2026-05-02",
+      "team1": "Austria Wien II",
+      "team2": "Floridsdorfer AC",
+      "score": {
+      }
+    },
+    {
+      "round": "28. Round",
+      "date": "2026-05-02",
+      "team1": "Kapfenberger SV 1919",
+      "team2": "FC Liefering",
+      "score": {
+      }
+    },
+    {
+      "round": "28. Round",
+      "date": "2026-05-02",
+      "team1": "SKN St. Pölten",
+      "team2": "FC Admira Wacker",
+      "score": {
+      }
+    },
+    {
+      "round": "28. Round",
+      "date": "2026-05-02",
+      "team1": "First Vienna FC",
+      "team2": "FC Hertha Wels",
+      "score": {
+      }
+    },
+    {
+      "round": "28. Round",
+      "date": "2026-05-02",
+      "team1": "Austria Lustenau",
+      "team2": "Schwarz-Weiß Bregenz",
+      "score": {
+      }
+    },
+    {
+      "round": "28. Round",
+      "date": "2026-05-02",
+      "team1": "SV Stripfing/Weiden",
+      "team2": "SKU Amstetten",
+      "score": {
+      }
+    },
+    {
+      "round": "28. Round",
+      "date": "2026-05-02",
+      "team1": "SK Austria Klagenfurt",
+      "team2": "Rapid Wien II",
+      "score": {
+      }
+    },
+    {
+      "round": "28. Round",
+      "date": "2026-05-02",
+      "team1": "Sturm Graz II",
+      "team2": "Austria Salzburg",
+      "score": {
+      }
+    },
+    {
+      "round": "29. Round",
+      "date": "2026-05-08",
+      "team1": "Austria Salzburg",
+      "team2": "Austria Lustenau",
+      "score": {
+      }
+    },
+    {
+      "round": "29. Round",
+      "date": "2026-05-08",
+      "team1": "SKU Amstetten",
+      "team2": "SK Austria Klagenfurt",
+      "score": {
+      }
+    },
+    {
+      "round": "29. Round",
+      "date": "2026-05-08",
+      "team1": "Rapid Wien II",
+      "team2": "First Vienna FC",
+      "score": {
+      }
+    },
+    {
+      "round": "29. Round",
+      "date": "2026-05-08",
+      "team1": "FC Liefering",
+      "team2": "FC Admira Wacker",
+      "score": {
+      }
+    },
+    {
+      "round": "29. Round",
+      "date": "2026-05-08",
+      "team1": "Kapfenberger SV 1919",
+      "team2": "SKN St. Pölten",
+      "score": {
+      }
+    },
+    {
+      "round": "29. Round",
+      "date": "2026-05-08",
+      "team1": "Schwarz-Weiß Bregenz",
+      "team2": "Austria Wien II",
+      "score": {
+      }
+    },
+    {
+      "round": "29. Round",
+      "date": "2026-05-08",
+      "team1": "Floridsdorfer AC",
+      "team2": "SV Stripfing/Weiden",
+      "score": {
+      }
+    },
+    {
+      "round": "29. Round",
+      "date": "2026-05-08",
+      "team1": "FC Hertha Wels",
+      "team2": "Sturm Graz II",
+      "score": {
+      }
+    },
+    {
+      "round": "30. Round",
+      "date": "2026-05-14",
+      "team1": "FC Admira Wacker",
+      "team2": "Floridsdorfer AC",
+      "score": {
+      }
+    },
+    {
+      "round": "30. Round",
+      "date": "2026-05-14",
+      "team1": "SK Austria Klagenfurt",
+      "team2": "FC Liefering",
+      "score": {
+      }
+    },
+    {
+      "round": "30. Round",
+      "date": "2026-05-14",
+      "team1": "SKN St. Pölten",
+      "team2": "FC Hertha Wels",
+      "score": {
+      }
+    },
+    {
+      "round": "30. Round",
+      "date": "2026-05-14",
+      "team1": "First Vienna FC",
+      "team2": "Schwarz-Weiß Bregenz",
+      "score": {
+      }
+    },
+    {
+      "round": "30. Round",
+      "date": "2026-05-14",
+      "team1": "Austria Wien II",
+      "team2": "Kapfenberger SV 1919",
+      "score": {
+      }
+    },
+    {
+      "round": "30. Round",
+      "date": "2026-05-14",
+      "team1": "Austria Lustenau",
+      "team2": "SKU Amstetten",
+      "score": {
+      }
+    },
+    {
+      "round": "30. Round",
+      "date": "2026-05-14",
+      "team1": "Sturm Graz II",
+      "team2": "Rapid Wien II",
+      "score": {
+      }
+    },
+    {
+      "round": "30. Round",
+      "date": "2026-05-14",
+      "team1": "SV Stripfing/Weiden",
+      "team2": "Austria Salzburg",
+      "score": {
+      }
+    }
+  ]
+}
