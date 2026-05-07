@@ -1,27 +1,1339 @@
 <!DOCTYPE html>
-<html>
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>烽域·星舟足球报告</title>
-<style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'Segoe UI',Roboto;background:#f0f2f5;padding:15px}
-.container{max-width:1200px;margin:0 auto}
-.header{text-align:center;margin-bottom:25px}
-h1{font-size:1.8rem;color:#1e293b}
-.card{background:white;border-radius:20px;margin-bottom:25px;overflow-x:auto;box-shadow:0 2px 8px rgba(0,0,0,0.08)}
-.league-title{padding:15px 20px;font-size:1.3rem;font-weight:bold;background:#1e293b;color:white;border-radius:20px 20px 0 0}
-table{width:100%;border-collapse:collapse;font-size:13px;min-width:550px}
-th,td{padding:10px 8px;text-align:center;border-bottom:1px solid #e2e8f0}
-th{background:#f8fafc}
-tr:hover{background:#f1f5f9}
-td:first-child,th:first-child{text-align:left;padding-left:15px}
-.footer{text-align:center;padding:15px;color:#64748b}
-</style>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>五大联赛积分榜 - 2025-26赛季</title>
+    <style>
+        body { font-family: 'Segoe UI', Roboto, sans-serif; background: #f0f2f5; margin: 0; padding: 20px; }
+        .container { max-width: 1300px; margin: auto; }
+        h1 { text-align: center; color: #1e2a3a; margin-bottom: 10px; }
+        .sub { text-align: center; color: #4a6a8a; margin-bottom: 30px; }
+        .league { background: white; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 30px; overflow-x: auto; }
+        .league h2 { background: #1e2a3a; color: white; margin: 0; padding: 12px 20px; font-size: 1.4rem; }
+        table { width: 100%; border-collapse: collapse; font-size: 14px; }
+        th, td { padding: 10px 8px; text-align: center; border-bottom: 1px solid #e2e8f0; }
+        th { background: #f8fafc; color: #1e2a3a; font-weight: 600; }
+        tr:hover { background: #f1f5f9; }
+        .team { text-align: left; font-weight: 500; }
+        .rank { font-weight: bold; color: #2563eb; }
+        footer { text-align: center; margin-top: 30px; color: #6c757d; font-size: 12px; }
+    </style>
 </head>
 <body>
 <div class="container">
-<div class="header">
-<h1>⚽ 烽域·星舟 · 足球数据领航员</h1>
-<div>数据来源：football.json (Public Domain) | 更新：2026-05-07 17:44:02</div>
+    <h1>🏆 欧洲五大联赛积分榜</h1>
+    <div class="sub">2025-26赛季 · 数据截止 2026-05-07 18:31</div>
+
+    <div class="league">
+        <h2>📌 Premier League</h2>
+        <table>
+            <thead>
+                <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>进球</th><th>失球</th><th>净胜球</th><th>积分</th></tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td class="rank">1</td>
+                    <td class="team">Arsenal FC</td>
+                    <td>35</td>
+                    <td>23</td>
+                    <td>7</td>
+                    <td>5</td>
+                    <td>67</td>
+                    <td>26</td>
+                    <td>+41</td>
+                    <td><strong>76</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">2</td>
+                    <td class="team">Manchester City FC</td>
+                    <td>34</td>
+                    <td>21</td>
+                    <td>8</td>
+                    <td>5</td>
+                    <td>69</td>
+                    <td>32</td>
+                    <td>+37</td>
+                    <td><strong>71</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">3</td>
+                    <td class="team">Manchester United FC</td>
+                    <td>35</td>
+                    <td>18</td>
+                    <td>10</td>
+                    <td>7</td>
+                    <td>63</td>
+                    <td>48</td>
+                    <td>+15</td>
+                    <td><strong>64</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">4</td>
+                    <td class="team">Liverpool FC</td>
+                    <td>35</td>
+                    <td>17</td>
+                    <td>7</td>
+                    <td>11</td>
+                    <td>59</td>
+                    <td>47</td>
+                    <td>+12</td>
+                    <td><strong>58</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">5</td>
+                    <td class="team">Aston Villa FC</td>
+                    <td>35</td>
+                    <td>17</td>
+                    <td>7</td>
+                    <td>11</td>
+                    <td>48</td>
+                    <td>44</td>
+                    <td>+4</td>
+                    <td><strong>58</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">6</td>
+                    <td class="team">AFC Bournemouth</td>
+                    <td>35</td>
+                    <td>12</td>
+                    <td>16</td>
+                    <td>7</td>
+                    <td>55</td>
+                    <td>52</td>
+                    <td>+3</td>
+                    <td><strong>52</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">7</td>
+                    <td class="team">Brentford FC</td>
+                    <td>35</td>
+                    <td>14</td>
+                    <td>9</td>
+                    <td>12</td>
+                    <td>52</td>
+                    <td>46</td>
+                    <td>+6</td>
+                    <td><strong>51</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">8</td>
+                    <td class="team">Brighton & Hove Albion FC</td>
+                    <td>35</td>
+                    <td>13</td>
+                    <td>11</td>
+                    <td>11</td>
+                    <td>49</td>
+                    <td>42</td>
+                    <td>+7</td>
+                    <td><strong>50</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">9</td>
+                    <td class="team">Chelsea FC</td>
+                    <td>35</td>
+                    <td>13</td>
+                    <td>9</td>
+                    <td>13</td>
+                    <td>54</td>
+                    <td>48</td>
+                    <td>+6</td>
+                    <td><strong>48</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">10</td>
+                    <td class="team">Everton FC</td>
+                    <td>35</td>
+                    <td>13</td>
+                    <td>9</td>
+                    <td>13</td>
+                    <td>44</td>
+                    <td>44</td>
+                    <td>+0</td>
+                    <td><strong>48</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">11</td>
+                    <td class="team">Fulham FC</td>
+                    <td>35</td>
+                    <td>14</td>
+                    <td>6</td>
+                    <td>15</td>
+                    <td>44</td>
+                    <td>49</td>
+                    <td>-5</td>
+                    <td><strong>48</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">12</td>
+                    <td class="team">Sunderland AFC</td>
+                    <td>35</td>
+                    <td>12</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>37</td>
+                    <td>46</td>
+                    <td>-9</td>
+                    <td><strong>47</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">13</td>
+                    <td class="team">Newcastle United FC</td>
+                    <td>35</td>
+                    <td>13</td>
+                    <td>6</td>
+                    <td>16</td>
+                    <td>49</td>
+                    <td>51</td>
+                    <td>-2</td>
+                    <td><strong>45</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">14</td>
+                    <td class="team">Leeds United FC</td>
+                    <td>35</td>
+                    <td>10</td>
+                    <td>13</td>
+                    <td>12</td>
+                    <td>47</td>
+                    <td>52</td>
+                    <td>-5</td>
+                    <td><strong>43</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">15</td>
+                    <td class="team">Crystal Palace FC</td>
+                    <td>34</td>
+                    <td>11</td>
+                    <td>10</td>
+                    <td>13</td>
+                    <td>36</td>
+                    <td>42</td>
+                    <td>-6</td>
+                    <td><strong>43</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">16</td>
+                    <td class="team">Nottingham Forest FC</td>
+                    <td>35</td>
+                    <td>11</td>
+                    <td>9</td>
+                    <td>15</td>
+                    <td>44</td>
+                    <td>46</td>
+                    <td>-2</td>
+                    <td><strong>42</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">17</td>
+                    <td class="team">Tottenham Hotspur FC</td>
+                    <td>35</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>16</td>
+                    <td>45</td>
+                    <td>54</td>
+                    <td>-9</td>
+                    <td><strong>37</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">18</td>
+                    <td class="team">West Ham United FC</td>
+                    <td>35</td>
+                    <td>9</td>
+                    <td>9</td>
+                    <td>17</td>
+                    <td>42</td>
+                    <td>61</td>
+                    <td>-19</td>
+                    <td><strong>36</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">19</td>
+                    <td class="team">Burnley FC</td>
+                    <td>35</td>
+                    <td>4</td>
+                    <td>8</td>
+                    <td>23</td>
+                    <td>35</td>
+                    <td>71</td>
+                    <td>-36</td>
+                    <td><strong>20</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">20</td>
+                    <td class="team">Wolverhampton Wanderers FC</td>
+                    <td>35</td>
+                    <td>3</td>
+                    <td>9</td>
+                    <td>23</td>
+                    <td>25</td>
+                    <td>63</td>
+                    <td>-38</td>
+                    <td><strong>18</strong></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <div class="league">
+        <h2>📌 La Liga</h2>
+        <table>
+            <thead>
+                <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>进球</th><th>失球</th><th>净胜球</th><th>积分</th></tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td class="rank">1</td>
+                    <td class="team">FC Barcelona</td>
+                    <td>34</td>
+                    <td>29</td>
+                    <td>1</td>
+                    <td>4</td>
+                    <td>89</td>
+                    <td>31</td>
+                    <td>+58</td>
+                    <td><strong>88</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">2</td>
+                    <td class="team">Real Madrid CF</td>
+                    <td>34</td>
+                    <td>24</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>70</td>
+                    <td>31</td>
+                    <td>+39</td>
+                    <td><strong>77</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">3</td>
+                    <td class="team">Villarreal CF</td>
+                    <td>34</td>
+                    <td>21</td>
+                    <td>5</td>
+                    <td>8</td>
+                    <td>64</td>
+                    <td>39</td>
+                    <td>+25</td>
+                    <td><strong>68</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">4</td>
+                    <td class="team">Club Atlético de Madrid</td>
+                    <td>34</td>
+                    <td>19</td>
+                    <td>6</td>
+                    <td>9</td>
+                    <td>58</td>
+                    <td>37</td>
+                    <td>+21</td>
+                    <td><strong>63</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">5</td>
+                    <td class="team">Real Betis Balompié</td>
+                    <td>34</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>7</td>
+                    <td>52</td>
+                    <td>41</td>
+                    <td>+11</td>
+                    <td><strong>53</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">6</td>
+                    <td class="team">RC Celta de Vigo</td>
+                    <td>34</td>
+                    <td>12</td>
+                    <td>11</td>
+                    <td>11</td>
+                    <td>48</td>
+                    <td>44</td>
+                    <td>+4</td>
+                    <td><strong>47</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">7</td>
+                    <td class="team">Getafe CF</td>
+                    <td>34</td>
+                    <td>13</td>
+                    <td>5</td>
+                    <td>16</td>
+                    <td>28</td>
+                    <td>36</td>
+                    <td>-8</td>
+                    <td><strong>44</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">8</td>
+                    <td class="team">Athletic Club</td>
+                    <td>34</td>
+                    <td>13</td>
+                    <td>5</td>
+                    <td>16</td>
+                    <td>40</td>
+                    <td>50</td>
+                    <td>-10</td>
+                    <td><strong>44</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">9</td>
+                    <td class="team">Real Sociedad de Fútbol</td>
+                    <td>34</td>
+                    <td>11</td>
+                    <td>10</td>
+                    <td>13</td>
+                    <td>52</td>
+                    <td>53</td>
+                    <td>-1</td>
+                    <td><strong>43</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">10</td>
+                    <td class="team">CA Osasuna</td>
+                    <td>34</td>
+                    <td>11</td>
+                    <td>9</td>
+                    <td>14</td>
+                    <td>40</td>
+                    <td>42</td>
+                    <td>-2</td>
+                    <td><strong>42</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">11</td>
+                    <td class="team">Rayo Vallecano de Madrid</td>
+                    <td>34</td>
+                    <td>10</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>35</td>
+                    <td>41</td>
+                    <td>-6</td>
+                    <td><strong>42</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">12</td>
+                    <td class="team">Valencia CF</td>
+                    <td>34</td>
+                    <td>10</td>
+                    <td>9</td>
+                    <td>15</td>
+                    <td>37</td>
+                    <td>50</td>
+                    <td>-13</td>
+                    <td><strong>39</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">13</td>
+                    <td class="team">RCD Espanyol de Barcelona</td>
+                    <td>34</td>
+                    <td>10</td>
+                    <td>9</td>
+                    <td>15</td>
+                    <td>37</td>
+                    <td>51</td>
+                    <td>-14</td>
+                    <td><strong>39</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">14</td>
+                    <td class="team">Elche CF</td>
+                    <td>34</td>
+                    <td>9</td>
+                    <td>11</td>
+                    <td>14</td>
+                    <td>45</td>
+                    <td>53</td>
+                    <td>-8</td>
+                    <td><strong>38</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">15</td>
+                    <td class="team">RCD Mallorca</td>
+                    <td>34</td>
+                    <td>10</td>
+                    <td>8</td>
+                    <td>16</td>
+                    <td>42</td>
+                    <td>51</td>
+                    <td>-9</td>
+                    <td><strong>38</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">16</td>
+                    <td class="team">Girona FC</td>
+                    <td>34</td>
+                    <td>9</td>
+                    <td>11</td>
+                    <td>14</td>
+                    <td>36</td>
+                    <td>51</td>
+                    <td>-15</td>
+                    <td><strong>38</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">17</td>
+                    <td class="team">Sevilla FC</td>
+                    <td>34</td>
+                    <td>10</td>
+                    <td>7</td>
+                    <td>17</td>
+                    <td>41</td>
+                    <td>55</td>
+                    <td>-14</td>
+                    <td><strong>37</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">18</td>
+                    <td class="team">Deportivo Alavés</td>
+                    <td>34</td>
+                    <td>9</td>
+                    <td>9</td>
+                    <td>16</td>
+                    <td>40</td>
+                    <td>53</td>
+                    <td>-13</td>
+                    <td><strong>36</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">19</td>
+                    <td class="team">Levante UD</td>
+                    <td>34</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>17</td>
+                    <td>38</td>
+                    <td>55</td>
+                    <td>-17</td>
+                    <td><strong>33</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">20</td>
+                    <td class="team">Real Oviedo</td>
+                    <td>34</td>
+                    <td>6</td>
+                    <td>10</td>
+                    <td>18</td>
+                    <td>26</td>
+                    <td>54</td>
+                    <td>-28</td>
+                    <td><strong>28</strong></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <div class="league">
+        <h2>📌 Bundesliga</h2>
+        <table>
+            <thead>
+                <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>进球</th><th>失球</th><th>净胜球</th><th>积分</th></tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td class="rank">1</td>
+                    <td class="team">FC Bayern München</td>
+                    <td>32</td>
+                    <td>26</td>
+                    <td>5</td>
+                    <td>1</td>
+                    <td>116</td>
+                    <td>35</td>
+                    <td>+81</td>
+                    <td><strong>83</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">2</td>
+                    <td class="team">Borussia Dortmund</td>
+                    <td>32</td>
+                    <td>20</td>
+                    <td>7</td>
+                    <td>5</td>
+                    <td>65</td>
+                    <td>32</td>
+                    <td>+33</td>
+                    <td><strong>67</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">3</td>
+                    <td class="team">RB Leipzig</td>
+                    <td>32</td>
+                    <td>19</td>
+                    <td>5</td>
+                    <td>8</td>
+                    <td>63</td>
+                    <td>42</td>
+                    <td>+21</td>
+                    <td><strong>62</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">4</td>
+                    <td class="team">Bayer 04 Leverkusen</td>
+                    <td>32</td>
+                    <td>17</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>66</td>
+                    <td>43</td>
+                    <td>+23</td>
+                    <td><strong>58</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">5</td>
+                    <td class="team">VfB Stuttgart</td>
+                    <td>32</td>
+                    <td>17</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>66</td>
+                    <td>46</td>
+                    <td>+20</td>
+                    <td><strong>58</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">6</td>
+                    <td class="team">TSG 1899 Hoffenheim</td>
+                    <td>32</td>
+                    <td>17</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>64</td>
+                    <td>48</td>
+                    <td>+16</td>
+                    <td><strong>58</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">7</td>
+                    <td class="team">SC Freiburg</td>
+                    <td>32</td>
+                    <td>12</td>
+                    <td>8</td>
+                    <td>12</td>
+                    <td>45</td>
+                    <td>53</td>
+                    <td>-8</td>
+                    <td><strong>44</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">8</td>
+                    <td class="team">Eintracht Frankfurt</td>
+                    <td>32</td>
+                    <td>11</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>57</td>
+                    <td>60</td>
+                    <td>-3</td>
+                    <td><strong>43</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">9</td>
+                    <td class="team">FC Augsburg</td>
+                    <td>32</td>
+                    <td>11</td>
+                    <td>7</td>
+                    <td>14</td>
+                    <td>42</td>
+                    <td>56</td>
+                    <td>-14</td>
+                    <td><strong>40</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">10</td>
+                    <td class="team">1. FSV Mainz 05</td>
+                    <td>32</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>13</td>
+                    <td>41</td>
+                    <td>50</td>
+                    <td>-9</td>
+                    <td><strong>37</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">11</td>
+                    <td class="team">Borussia Mönchengladbach</td>
+                    <td>32</td>
+                    <td>8</td>
+                    <td>11</td>
+                    <td>13</td>
+                    <td>37</td>
+                    <td>50</td>
+                    <td>-13</td>
+                    <td><strong>35</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">12</td>
+                    <td class="team">Hamburger SV</td>
+                    <td>32</td>
+                    <td>8</td>
+                    <td>10</td>
+                    <td>14</td>
+                    <td>36</td>
+                    <td>51</td>
+                    <td>-15</td>
+                    <td><strong>34</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">13</td>
+                    <td class="team">1. FC Union Berlin</td>
+                    <td>32</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>15</td>
+                    <td>37</td>
+                    <td>57</td>
+                    <td>-20</td>
+                    <td><strong>33</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">14</td>
+                    <td class="team">1. FC Köln</td>
+                    <td>32</td>
+                    <td>7</td>
+                    <td>11</td>
+                    <td>14</td>
+                    <td>47</td>
+                    <td>55</td>
+                    <td>-8</td>
+                    <td><strong>32</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">15</td>
+                    <td class="team">SV Werder Bremen</td>
+                    <td>32</td>
+                    <td>8</td>
+                    <td>8</td>
+                    <td>16</td>
+                    <td>37</td>
+                    <td>57</td>
+                    <td>-20</td>
+                    <td><strong>32</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">16</td>
+                    <td class="team">VfL Wolfsburg</td>
+                    <td>32</td>
+                    <td>6</td>
+                    <td>8</td>
+                    <td>18</td>
+                    <td>42</td>
+                    <td>67</td>
+                    <td>-25</td>
+                    <td><strong>26</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">17</td>
+                    <td class="team">FC St. Pauli 1910</td>
+                    <td>32</td>
+                    <td>6</td>
+                    <td>8</td>
+                    <td>18</td>
+                    <td>27</td>
+                    <td>55</td>
+                    <td>-28</td>
+                    <td><strong>26</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">18</td>
+                    <td class="team">1. FC Heidenheim 1846</td>
+                    <td>32</td>
+                    <td>5</td>
+                    <td>8</td>
+                    <td>19</td>
+                    <td>38</td>
+                    <td>69</td>
+                    <td>-31</td>
+                    <td><strong>23</strong></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <div class="league">
+        <h2>📌 Serie A</h2>
+        <table>
+            <thead>
+                <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>进球</th><th>失球</th><th>净胜球</th><th>积分</th></tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td class="rank">1</td>
+                    <td class="team">FC Internazionale Milano</td>
+                    <td>35</td>
+                    <td>26</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>82</td>
+                    <td>31</td>
+                    <td>+51</td>
+                    <td><strong>82</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">2</td>
+                    <td class="team">SSC Napoli</td>
+                    <td>35</td>
+                    <td>21</td>
+                    <td>7</td>
+                    <td>7</td>
+                    <td>52</td>
+                    <td>33</td>
+                    <td>+19</td>
+                    <td><strong>70</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">3</td>
+                    <td class="team">AC Milan</td>
+                    <td>35</td>
+                    <td>19</td>
+                    <td>10</td>
+                    <td>6</td>
+                    <td>48</td>
+                    <td>29</td>
+                    <td>+19</td>
+                    <td><strong>67</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">4</td>
+                    <td class="team">Juventus FC</td>
+                    <td>35</td>
+                    <td>18</td>
+                    <td>11</td>
+                    <td>6</td>
+                    <td>58</td>
+                    <td>30</td>
+                    <td>+28</td>
+                    <td><strong>65</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">5</td>
+                    <td class="team">AS Roma</td>
+                    <td>35</td>
+                    <td>20</td>
+                    <td>4</td>
+                    <td>11</td>
+                    <td>52</td>
+                    <td>29</td>
+                    <td>+23</td>
+                    <td><strong>64</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">6</td>
+                    <td class="team">Como 1907</td>
+                    <td>35</td>
+                    <td>17</td>
+                    <td>11</td>
+                    <td>7</td>
+                    <td>59</td>
+                    <td>28</td>
+                    <td>+31</td>
+                    <td><strong>62</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">7</td>
+                    <td class="team">Atalanta BC</td>
+                    <td>35</td>
+                    <td>14</td>
+                    <td>13</td>
+                    <td>8</td>
+                    <td>47</td>
+                    <td>32</td>
+                    <td>+15</td>
+                    <td><strong>55</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">8</td>
+                    <td class="team">SS Lazio</td>
+                    <td>35</td>
+                    <td>13</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>39</td>
+                    <td>34</td>
+                    <td>+5</td>
+                    <td><strong>51</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">9</td>
+                    <td class="team">Bologna FC 1909</td>
+                    <td>35</td>
+                    <td>14</td>
+                    <td>7</td>
+                    <td>14</td>
+                    <td>42</td>
+                    <td>41</td>
+                    <td>+1</td>
+                    <td><strong>49</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">10</td>
+                    <td class="team">US Sassuolo Calcio</td>
+                    <td>35</td>
+                    <td>14</td>
+                    <td>7</td>
+                    <td>14</td>
+                    <td>43</td>
+                    <td>44</td>
+                    <td>-1</td>
+                    <td><strong>49</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">11</td>
+                    <td class="team">Udinese Calcio</td>
+                    <td>35</td>
+                    <td>13</td>
+                    <td>8</td>
+                    <td>14</td>
+                    <td>43</td>
+                    <td>46</td>
+                    <td>-3</td>
+                    <td><strong>47</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">12</td>
+                    <td class="team">Parma Calcio 1913</td>
+                    <td>35</td>
+                    <td>10</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>25</td>
+                    <td>42</td>
+                    <td>-17</td>
+                    <td><strong>42</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">13</td>
+                    <td class="team">Genoa CFC</td>
+                    <td>35</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>40</td>
+                    <td>48</td>
+                    <td>-8</td>
+                    <td><strong>40</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">14</td>
+                    <td class="team">Torino FC</td>
+                    <td>35</td>
+                    <td>11</td>
+                    <td>7</td>
+                    <td>17</td>
+                    <td>39</td>
+                    <td>59</td>
+                    <td>-20</td>
+                    <td><strong>40</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">15</td>
+                    <td class="team">ACF Fiorentina</td>
+                    <td>35</td>
+                    <td>8</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>38</td>
+                    <td>49</td>
+                    <td>-11</td>
+                    <td><strong>37</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">16</td>
+                    <td class="team">Cagliari Calcio</td>
+                    <td>35</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>16</td>
+                    <td>36</td>
+                    <td>49</td>
+                    <td>-13</td>
+                    <td><strong>37</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">17</td>
+                    <td class="team">US Lecce</td>
+                    <td>35</td>
+                    <td>8</td>
+                    <td>7</td>
+                    <td>20</td>
+                    <td>24</td>
+                    <td>48</td>
+                    <td>-24</td>
+                    <td><strong>31</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">18</td>
+                    <td class="team">US Cremonese</td>
+                    <td>35</td>
+                    <td>7</td>
+                    <td>9</td>
+                    <td>19</td>
+                    <td>28</td>
+                    <td>53</td>
+                    <td>-25</td>
+                    <td><strong>30</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">19</td>
+                    <td class="team">Hellas Verona FC</td>
+                    <td>35</td>
+                    <td>4</td>
+                    <td>10</td>
+                    <td>21</td>
+                    <td>25</td>
+                    <td>57</td>
+                    <td>-32</td>
+                    <td><strong>22</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">20</td>
+                    <td class="team">AC Pisa 1909</td>
+                    <td>35</td>
+                    <td>2</td>
+                    <td>12</td>
+                    <td>21</td>
+                    <td>25</td>
+                    <td>63</td>
+                    <td>-38</td>
+                    <td><strong>18</strong></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <div class="league">
+        <h2>📌 Ligue 1</h2>
+        <table>
+            <thead>
+                <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>进球</th><th>失球</th><th>净胜球</th><th>积分</th></tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td class="rank">1</td>
+                    <td class="team">Paris Saint-Germain FC</td>
+                    <td>31</td>
+                    <td>22</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>70</td>
+                    <td>27</td>
+                    <td>+43</td>
+                    <td><strong>70</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">2</td>
+                    <td class="team">Racing Club de Lens</td>
+                    <td>31</td>
+                    <td>20</td>
+                    <td>4</td>
+                    <td>7</td>
+                    <td>61</td>
+                    <td>33</td>
+                    <td>+28</td>
+                    <td><strong>64</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">3</td>
+                    <td class="team">Olympique Lyonnais</td>
+                    <td>32</td>
+                    <td>18</td>
+                    <td>6</td>
+                    <td>8</td>
+                    <td>52</td>
+                    <td>34</td>
+                    <td>+18</td>
+                    <td><strong>60</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">4</td>
+                    <td class="team">Lille OSC</td>
+                    <td>32</td>
+                    <td>17</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>51</td>
+                    <td>35</td>
+                    <td>+16</td>
+                    <td><strong>58</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">5</td>
+                    <td class="team">Stade Rennais FC 1901</td>
+                    <td>32</td>
+                    <td>16</td>
+                    <td>8</td>
+                    <td>8</td>
+                    <td>56</td>
+                    <td>46</td>
+                    <td>+10</td>
+                    <td><strong>56</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">6</td>
+                    <td class="team">AS Monaco FC</td>
+                    <td>32</td>
+                    <td>16</td>
+                    <td>6</td>
+                    <td>10</td>
+                    <td>56</td>
+                    <td>48</td>
+                    <td>+8</td>
+                    <td><strong>54</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">7</td>
+                    <td class="team">Olympique de Marseille</td>
+                    <td>32</td>
+                    <td>16</td>
+                    <td>5</td>
+                    <td>11</td>
+                    <td>59</td>
+                    <td>44</td>
+                    <td>+15</td>
+                    <td><strong>53</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">8</td>
+                    <td class="team">RC Strasbourg Alsace</td>
+                    <td>31</td>
+                    <td>13</td>
+                    <td>7</td>
+                    <td>11</td>
+                    <td>50</td>
+                    <td>41</td>
+                    <td>+9</td>
+                    <td><strong>46</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">9</td>
+                    <td class="team">FC Lorient</td>
+                    <td>32</td>
+                    <td>10</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>44</td>
+                    <td>49</td>
+                    <td>-5</td>
+                    <td><strong>42</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">10</td>
+                    <td class="team">Toulouse FC</td>
+                    <td>32</td>
+                    <td>11</td>
+                    <td>8</td>
+                    <td>13</td>
+                    <td>45</td>
+                    <td>45</td>
+                    <td>+0</td>
+                    <td><strong>41</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">11</td>
+                    <td class="team">Paris FC</td>
+                    <td>32</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>11</td>
+                    <td>44</td>
+                    <td>47</td>
+                    <td>-3</td>
+                    <td><strong>41</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">12</td>
+                    <td class="team">Stade Brestois 29</td>
+                    <td>31</td>
+                    <td>10</td>
+                    <td>8</td>
+                    <td>13</td>
+                    <td>41</td>
+                    <td>51</td>
+                    <td>-10</td>
+                    <td><strong>38</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">13</td>
+                    <td class="team">Angers SCO</td>
+                    <td>32</td>
+                    <td>9</td>
+                    <td>7</td>
+                    <td>16</td>
+                    <td>27</td>
+                    <td>46</td>
+                    <td>-19</td>
+                    <td><strong>34</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">14</td>
+                    <td class="team">Le Havre AC</td>
+                    <td>32</td>
+                    <td>6</td>
+                    <td>14</td>
+                    <td>12</td>
+                    <td>30</td>
+                    <td>43</td>
+                    <td>-13</td>
+                    <td><strong>32</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">15</td>
+                    <td class="team">OGC Nice</td>
+                    <td>32</td>
+                    <td>7</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>36</td>
+                    <td>58</td>
+                    <td>-22</td>
+                    <td><strong>31</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">16</td>
+                    <td class="team">AJ Auxerre</td>
+                    <td>32</td>
+                    <td>6</td>
+                    <td>10</td>
+                    <td>16</td>
+                    <td>30</td>
+                    <td>43</td>
+                    <td>-13</td>
+                    <td><strong>28</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">17</td>
+                    <td class="team">FC Nantes</td>
+                    <td>32</td>
+                    <td>5</td>
+                    <td>8</td>
+                    <td>19</td>
+                    <td>29</td>
+                    <td>51</td>
+                    <td>-22</td>
+                    <td><strong>23</strong></td>
+                </tr>
+
+                <tr>
+                    <td class="rank">18</td>
+                    <td class="team">FC Metz</td>
+                    <td>32</td>
+                    <td>3</td>
+                    <td>7</td>
+                    <td>22</td>
+                    <td>32</td>
+                    <td>72</td>
+                    <td>-40</td>
+                    <td><strong>16</strong></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <footer>数据来源: football.json | 自动生成于 2026-05-07 18:31:57</footer>
 </div>
-<div class="footer">© 烽域·星舟 | 数据来源：football.json 开源项目</div></div></body></html>
+</body>
+</html>
