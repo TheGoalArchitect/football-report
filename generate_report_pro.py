@@ -8,38 +8,95 @@ from datetime import datetime
 from collections import defaultdict
 
 # ==================== 强制 SSH 使用英文路径的密钥 ====================
-os.environ['HOME'] = 'D:\\GitHome'          # 与 setx HOME 设置的路径一致
+os.environ['HOME'] = 'D:\\GitHome'
 os.environ['GIT_SSH_COMMAND'] = 'C:/Windows/System32/OpenSSH/ssh.exe'
 
 # ==================== 配置 ====================
-DATA_ROOT = "football.json/2025-26"         # 数据文件夹位置
+# 数据目录：根据你的实际绝对路径（已有 football.json 文件夹）
+DATA_DIR = r"C:\Users\鼎丰\Desktop\football_report\football.json\2025-26"
 OUTPUT_FILE = "output/index.html"
+
+# 联赛名称 -> 数据文件前缀 (en, es, de, it, fr)
 LEAGUES = {
-    "Premier League": "england",
-    "La Liga": "spain",
-    "Bundesliga": "germany",
-    "Serie A": "italy",
-    "Ligue 1": "france",
+    "Premier League": "en",
+    "La Liga": "es",
+    "Bundesliga": "de",
+    "Serie A": "it",
+    "Ligue 1": "fr",
 }
 
-# ==================== 积分榜计算函数 ====================
+def get_data_files(prefix):
+    """获取指定前缀的所有 JSON 文件（如 en.1.json, en.2.json ...）"""
+    files = []
+    if not os.path.isdir(DATA_DIR):
+        print(f"❌ 数据目录不存在: {DATA_DIR}")
+        return files
+    for f in os.listdir(DATA_DIR):
+        if f.startswith(prefix + ".") and f.endswith(".json"):
+            files.append(os.path.join(DATA_DIR, f))
+    files.sort(key=lambda x: int(x.split('.')[-2]) if x.split('.')[-2].isdigit() else 0)
+    return files
+
+def load_matches_from_file(filepath):
+    """解析单个 JSON 文件，返回比赛列表（适配实际结构）"""
+    with open(filepath, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    matches = []
+    for match in data.get("matches", []):
+        team1 = match.get("team1")
+        team2 = match.get("team2")
+        score = match.get("score", {})
+        # 优先使用 ft（全场比分）
+        ft = score.get("ft")
+        if ft and len(ft) == 2:
+            score1, score2 = ft[0], ft[1]
+        else:
+            # 尝试 ht（半场比分）
+            ht = score.get("ht")
+            if ht and len(ht) == 2:
+                score1, score2 = ht[0], ht[1]
+            else:
+                continue   # 无效比分，跳过
+        if team1 and team2 and score1 is not None and score2 is not None:
+            matches.append({
+                "home": team1,
+                "away": team2,
+                "home_score": score1,
+                "away_score": score2
+            })
+    return matches
+
+def load_league_data(league_name, prefix):
+    """根据前缀加载所有分片文件，合并比赛数据"""
+    files = get_data_files(prefix)
+    if not files:
+        print(f"⚠️ 未找到 {league_name} 的数据文件（前缀 {prefix}）")
+        return None
+    all_matches = []
+    for f in files:
+        matches = load_matches_from_file(f)
+        all_matches.extend(matches)
+    if not all_matches:
+        return None
+    team_set = set()
+    for m in all_matches:
+        team_set.add(m["home"])
+        team_set.add(m["away"])
+    print(f"  加载 {len(all_matches)} 场比赛，{len(team_set)} 支球队")
+    return all_matches
+
 def calculate_table(matches):
-    """根据比赛列表计算积分榜
-    输入: matches = [{"home": "Team A", "away": "Team B", "home_score": 2, "away_score": 1}, ...]
-    输出: 列表 of dict，按积分、净胜球、进球排序
-    """
+    """计算积分榜"""
     stats = defaultdict(lambda: {
         "played": 0, "won": 0, "drawn": 0, "lost": 0,
         "goals_for": 0, "goals_against": 0, "points": 0
     })
-
     for m in matches:
         home = m["home"]
         away = m["away"]
         hg = m["home_score"]
         ag = m["away_score"]
 
-        # 更新主队
         stats[home]["played"] += 1
         stats[home]["goals_for"] += hg
         stats[home]["goals_against"] += ag
@@ -52,7 +109,6 @@ def calculate_table(matches):
         else:
             stats[home]["lost"] += 1
 
-        # 更新客队
         stats[away]["played"] += 1
         stats[away]["goals_for"] += ag
         stats[away]["goals_against"] += hg
@@ -65,7 +121,6 @@ def calculate_table(matches):
         else:
             stats[away]["lost"] += 1
 
-    # 转换为列表并计算净胜球
     table = []
     for team, data in stats.items():
         gd = data["goals_for"] - data["goals_against"]
@@ -80,69 +135,21 @@ def calculate_table(matches):
             "gd": gd,
             "points": data["points"]
         })
-
-    # 排序：积分 > 净胜球 > 进球数
     table.sort(key=lambda x: (x["points"], x["gd"], x["gf"]), reverse=True)
-    # 添加排名
     for idx, row in enumerate(table, 1):
         row["rank"] = idx
     return table
 
-# ==================== 加载联赛数据 ====================
-def load_league_data(league_name, folder_name):
-    file_path = os.path.join(DATA_ROOT, folder_name, "matches.json")
-    if not os.path.exists(file_path):
-        print(f"⚠️ 未找到数据文件: {file_path}")
-        return None, None
-
-    with open(file_path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    matches = []
-    for match in data.get("matches", []):
-        # 适配不同的 JSON 结构（football.json 常见格式）
-        # 有的直接是 {"home": ..., "away": ..., "home_score": ..., "away_score": ...}
-        # 有的是嵌套在 "score" 里，我们做兼容处理
-        home_team = match.get("home", {}).get("team_name") or match.get("home_team", {}).get("name")
-        away_team = match.get("away", {}).get("team_name") or match.get("away_team", {}).get("name")
-        if not home_team or not away_team:
-            continue
-
-        # 尝试多种得分字段
-        if "home_score" in match and "away_score" in match:
-            hs = match["home_score"]
-            as_ = match["away_score"]
-        elif "score" in match:
-            hs = match["score"].get("home", 0)
-            as_ = match["score"].get("away", 0)
-        else:
-            continue
-
-        matches.append({
-            "home": home_team,
-            "away": away_team,
-            "home_score": hs,
-            "away_score": as_
-        })
-
-    print(f"  加载 {len(matches)} 场比赛，{len(set(m['home'] for m in matches) | set(m['away'] for m in matches))} 支球队")
-    return matches, league_name
-
-# ==================== 生成 HTML ====================
 def generate_html(tables):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-
-    # 构建每个联赛的表格 HTML
     league_tabs = []
     league_panes = []
 
     for league_name, table in tables.items():
-        # 生成 tab 按钮
         active_tab = 'active' if not league_tabs else ''
         tab_id = league_name.replace(' ', '_')
-        league_tabs.append(f'<li class="nav-item" role="presentation"><button class="nav-link {active_tab}" id="{tab_id}-tab" data-bs-toggle="tab" data-bs-target="#{tab_id}" type="button" role="tab">{league_name}</button></li>')
+        league_tabs.append(f'<li class="nav-item"><button class="nav-link {active_tab}" id="{tab_id}-tab" data-bs-toggle="tab" data-bs-target="#{tab_id}" type="button" role="tab">{league_name}</button></li>')
 
-        # 生成表格行
         rows = ""
         for team in table:
             rows += f"""
@@ -159,17 +166,13 @@ def generate_html(tables):
                 <td><strong>{team['points']}</strong></td>
             </tr>
             """
-
         pane_active = 'show active' if not league_panes else ''
         league_panes.append(f"""
         <div class="tab-pane fade {pane_active}" id="{tab_id}" role="tabpanel">
             <div class="table-responsive">
                 <table class="table table-striped table-hover">
                     <thead>
-                        <tr>
-                            <th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th>
-                            <th>进球</th><th>失球</th><th>净胜球</th><th>积分</th>
-                        </tr>
+                        <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>进球</th><th>失球</th><th>净胜球</th><th>积分</th></tr>
                     </thead>
                     <tbody>{rows}</tbody>
                 </table>
@@ -188,8 +191,7 @@ def generate_html(tables):
         body {{ background: #f0f2f5; font-family: 'Segoe UI', Roboto, system-ui; }}
         .container {{ margin-top: 30px; margin-bottom: 30px; }}
         .header {{ text-align: center; margin-bottom: 30px; }}
-        .header h1 {{ color: #1e3c72; font-weight: 700; letter-spacing: 1px; }}
-        .header p {{ color: #2c5282; }}
+        .header h1 {{ color: #1e3c72; font-weight: 700; }}
         .tab-content {{ background: white; border-radius: 0 0 12px 12px; padding: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }}
         .nav-tabs .nav-link {{ font-weight: 600; color: #1e3c72; }}
         .nav-tabs .nav-link.active {{ background-color: #1e3c72; color: white; border-color: #1e3c72; }}
@@ -204,73 +206,57 @@ def generate_html(tables):
         <h1>⚽ 烽域·星舟 · 足球数据领航员</h1>
         <p>数据来源：football.json (Public Domain) | 更新：{timestamp}</p>
     </div>
-
     <ul class="nav nav-tabs" id="leagueTab" role="tablist">
         {''.join(league_tabs)}
     </ul>
     <div class="tab-content" id="leagueTabContent">
         {''.join(league_panes)}
     </div>
-
-    <footer>
-        © 烽域·星舟 | 数据来源：football.json 开源项目
-    </footer>
+    <footer>© 烽域·星舟 | 数据来源：football.json 开源项目</footer>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>"""
 
-    # 确保输出目录存在
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(html_content)
     print(f"✅ 报告已生成: {OUTPUT_FILE}")
 
-# ==================== Git 自动提交推送 ====================
 def git_auto_push():
-    """在仓库根目录执行 add, commit, push"""
     try:
-        # 添加所有变更
         subprocess.run(["git", "add", "."], check=True, capture_output=True, text=True)
-        # 检查是否有变更可提交
         status = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True)
         if not status.stdout.strip():
             print("📭 没有需要提交的变更，跳过提交。")
             return
-
-        # 生成提交信息
         commit_msg = f"Auto-update {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
         subprocess.run(["git", "commit", "-m", commit_msg], check=True, capture_output=True, text=True)
         print(f"📦 已提交: {commit_msg}")
-
-        # 推送
         subprocess.run(["git", "push"], check=True, capture_output=True, text=True)
         print("🚀 已推送到远程仓库")
     except subprocess.CalledProcessError as e:
         print(f"❌ Git 操作失败: {e}")
         if e.stderr:
             print(e.stderr)
-        # 不退出，让主流程继续
 
-# ==================== 主程序 ====================
 def main():
     print("⚽ 烽域·星舟 积分榜生成器启动")
+    # 确保工作目录是脚本所在目录
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    os.chdir(script_dir)
     tables = {}
-
-    for display_name, folder in LEAGUES.items():
-        print(f"加载 {display_name}...")
-        matches, _ = load_league_data(display_name, folder)
+    for league_name, prefix in LEAGUES.items():
+        print(f"加载 {league_name}...")
+        matches = load_league_data(league_name, prefix)
         if matches:
             table = calculate_table(matches)
-            tables[display_name] = table
+            tables[league_name] = table
         else:
-            print(f"  ⚠️ {display_name} 无有效数据")
-            tables[display_name] = []
-
-    if not tables:
+            tables[league_name] = []
+    if not any(tables.values()):
         print("❌ 没有加载到任何联赛数据，请检查 football.json 文件夹路径")
         return
-
     generate_html(tables)
     git_auto_push()
 

@@ -9,8 +9,7 @@
         body { background: #f0f2f5; font-family: 'Segoe UI', Roboto, system-ui; }
         .container { margin-top: 30px; margin-bottom: 30px; }
         .header { text-align: center; margin-bottom: 30px; }
-        .header h1 { color: #1e3c72; font-weight: 700; letter-spacing: 1px; }
-        .header p { color: #2c5282; }
+        .header h1 { color: #1e3c72; font-weight: 700; }
         .tab-content { background: white; border-radius: 0 0 12px 12px; padding: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
         .nav-tabs .nav-link { font-weight: 600; color: #1e3c72; }
         .nav-tabs .nav-link.active { background-color: #1e3c72; color: white; border-color: #1e3c72; }
@@ -23,11 +22,10 @@
 <div class="container">
     <div class="header">
         <h1>⚽ 烽域·星舟 · 足球数据领航员</h1>
-        <p>数据来源：football.json (Public Domain) | 更新：2026-05-08 09:00:17</p>
+        <p>数据来源：football.json (Public Domain) | 更新：2026-05-08 09:14:58</p>
     </div>
-
     <ul class="nav nav-tabs" id="leagueTab" role="tablist">
-        <li class="nav-item" role="presentation"><button class="nav-link active" id="Premier_League-tab" data-bs-toggle="tab" data-bs-target="#Premier_League" type="button" role="tab">Premier League</button></li><li class="nav-item" role="presentation"><button class="nav-link " id="La_Liga-tab" data-bs-toggle="tab" data-bs-target="#La_Liga" type="button" role="tab">La Liga</button></li><li class="nav-item" role="presentation"><button class="nav-link " id="Bundesliga-tab" data-bs-toggle="tab" data-bs-target="#Bundesliga" type="button" role="tab">Bundesliga</button></li><li class="nav-item" role="presentation"><button class="nav-link " id="Serie_A-tab" data-bs-toggle="tab" data-bs-target="#Serie_A" type="button" role="tab">Serie A</button></li><li class="nav-item" role="presentation"><button class="nav-link " id="Ligue_1-tab" data-bs-toggle="tab" data-bs-target="#Ligue_1" type="button" role="tab">Ligue 1</button></li>
+        <li class="nav-item"><button class="nav-link active" id="Premier_League-tab" data-bs-toggle="tab" data-bs-target="#Premier_League" type="button" role="tab">Premier League</button></li><li class="nav-item"><button class="nav-link " id="La_Liga-tab" data-bs-toggle="tab" data-bs-target="#La_Liga" type="button" role="tab">La Liga</button></li><li class="nav-item"><button class="nav-link " id="Bundesliga-tab" data-bs-toggle="tab" data-bs-target="#Bundesliga" type="button" role="tab">Bundesliga</button></li><li class="nav-item"><button class="nav-link " id="Serie_A-tab" data-bs-toggle="tab" data-bs-target="#Serie_A" type="button" role="tab">Serie A</button></li><li class="nav-item"><button class="nav-link " id="Ligue_1-tab" data-bs-toggle="tab" data-bs-target="#Ligue_1" type="button" role="tab">Ligue 1</button></li>
     </ul>
     <div class="tab-content" id="leagueTabContent">
         
@@ -35,12 +33,1634 @@
             <div class="table-responsive">
                 <table class="table table-striped table-hover">
                     <thead>
-                        <tr>
-                            <th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th>
-                            <th>进球</th><th>失球</th><th>净胜球</th><th>积分</th>
-                        </tr>
+                        <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>进球</th><th>失球</th><th>净胜球</th><th>积分</th></tr>
                     </thead>
-                    <tbody></tbody>
+                    <tbody>
+            <tr>
+                <td>1</td>
+                <td class="team-name">Arsenal FC</td>
+                <td>35</td>
+                <td>23</td>
+                <td>7</td>
+                <td>5</td>
+                <td>67</td>
+                <td>26</td>
+                <td>41</td>
+                <td><strong>76</strong></td>
+            </tr>
+            
+            <tr>
+                <td>2</td>
+                <td class="team-name">Manchester City FC</td>
+                <td>34</td>
+                <td>21</td>
+                <td>8</td>
+                <td>5</td>
+                <td>69</td>
+                <td>32</td>
+                <td>37</td>
+                <td><strong>71</strong></td>
+            </tr>
+            
+            <tr>
+                <td>3</td>
+                <td class="team-name">Middlesbrough FC</td>
+                <td>31</td>
+                <td>20</td>
+                <td>8</td>
+                <td>3</td>
+                <td>47</td>
+                <td>21</td>
+                <td>26</td>
+                <td><strong>68</strong></td>
+            </tr>
+            
+            <tr>
+                <td>4</td>
+                <td class="team-name">Manchester United FC</td>
+                <td>35</td>
+                <td>18</td>
+                <td>10</td>
+                <td>7</td>
+                <td>63</td>
+                <td>48</td>
+                <td>15</td>
+                <td><strong>64</strong></td>
+            </tr>
+            
+            <tr>
+                <td>5</td>
+                <td class="team-name">Cardiff City</td>
+                <td>25</td>
+                <td>19</td>
+                <td>3</td>
+                <td>3</td>
+                <td>49</td>
+                <td>13</td>
+                <td>36</td>
+                <td><strong>60</strong></td>
+            </tr>
+            
+            <tr>
+                <td>6</td>
+                <td class="team-name">Stockport County</td>
+                <td>27</td>
+                <td>18</td>
+                <td>6</td>
+                <td>3</td>
+                <td>41</td>
+                <td>21</td>
+                <td>20</td>
+                <td><strong>60</strong></td>
+            </tr>
+            
+            <tr>
+                <td>7</td>
+                <td class="team-name">Coventry City FC</td>
+                <td>31</td>
+                <td>16</td>
+                <td>10</td>
+                <td>5</td>
+                <td>69</td>
+                <td>35</td>
+                <td>34</td>
+                <td><strong>58</strong></td>
+            </tr>
+            
+            <tr>
+                <td>8</td>
+                <td class="team-name">Liverpool FC</td>
+                <td>35</td>
+                <td>17</td>
+                <td>7</td>
+                <td>11</td>
+                <td>59</td>
+                <td>47</td>
+                <td>12</td>
+                <td><strong>58</strong></td>
+            </tr>
+            
+            <tr>
+                <td>9</td>
+                <td class="team-name">Aston Villa FC</td>
+                <td>35</td>
+                <td>17</td>
+                <td>7</td>
+                <td>11</td>
+                <td>48</td>
+                <td>44</td>
+                <td>4</td>
+                <td><strong>58</strong></td>
+            </tr>
+            
+            <tr>
+                <td>10</td>
+                <td class="team-name">Ipswich Town FC</td>
+                <td>28</td>
+                <td>15</td>
+                <td>9</td>
+                <td>4</td>
+                <td>55</td>
+                <td>28</td>
+                <td>27</td>
+                <td><strong>54</strong></td>
+            </tr>
+            
+            <tr>
+                <td>11</td>
+                <td class="team-name">Bolton Wanderers</td>
+                <td>27</td>
+                <td>15</td>
+                <td>9</td>
+                <td>3</td>
+                <td>40</td>
+                <td>23</td>
+                <td>17</td>
+                <td><strong>54</strong></td>
+            </tr>
+            
+            <tr>
+                <td>12</td>
+                <td class="team-name">Southampton FC</td>
+                <td>32</td>
+                <td>15</td>
+                <td>9</td>
+                <td>8</td>
+                <td>53</td>
+                <td>41</td>
+                <td>12</td>
+                <td><strong>54</strong></td>
+            </tr>
+            
+            <tr>
+                <td>13</td>
+                <td class="team-name">Luton Town</td>
+                <td>26</td>
+                <td>16</td>
+                <td>4</td>
+                <td>6</td>
+                <td>39</td>
+                <td>26</td>
+                <td>13</td>
+                <td><strong>52</strong></td>
+            </tr>
+            
+            <tr>
+                <td>14</td>
+                <td class="team-name">AFC Bournemouth</td>
+                <td>35</td>
+                <td>12</td>
+                <td>16</td>
+                <td>7</td>
+                <td>55</td>
+                <td>52</td>
+                <td>3</td>
+                <td><strong>52</strong></td>
+            </tr>
+            
+            <tr>
+                <td>15</td>
+                <td class="team-name">Brentford FC</td>
+                <td>35</td>
+                <td>14</td>
+                <td>9</td>
+                <td>12</td>
+                <td>52</td>
+                <td>46</td>
+                <td>6</td>
+                <td><strong>51</strong></td>
+            </tr>
+            
+            <tr>
+                <td>16</td>
+                <td class="team-name">Leicester City FC</td>
+                <td>31</td>
+                <td>14</td>
+                <td>8</td>
+                <td>9</td>
+                <td>49</td>
+                <td>35</td>
+                <td>14</td>
+                <td><strong>50</strong></td>
+            </tr>
+            
+            <tr>
+                <td>17</td>
+                <td class="team-name">Brighton & Hove Albion FC</td>
+                <td>35</td>
+                <td>13</td>
+                <td>11</td>
+                <td>11</td>
+                <td>49</td>
+                <td>42</td>
+                <td>7</td>
+                <td><strong>50</strong></td>
+            </tr>
+            
+            <tr>
+                <td>18</td>
+                <td class="team-name">Huddersfield Town</td>
+                <td>26</td>
+                <td>15</td>
+                <td>4</td>
+                <td>7</td>
+                <td>39</td>
+                <td>26</td>
+                <td>13</td>
+                <td><strong>49</strong></td>
+            </tr>
+            
+            <tr>
+                <td>19</td>
+                <td class="team-name">Millwall FC</td>
+                <td>31</td>
+                <td>13</td>
+                <td>10</td>
+                <td>8</td>
+                <td>35</td>
+                <td>34</td>
+                <td>1</td>
+                <td><strong>49</strong></td>
+            </tr>
+            
+            <tr>
+                <td>20</td>
+                <td class="team-name">Salford City</td>
+                <td>23</td>
+                <td>15</td>
+                <td>3</td>
+                <td>5</td>
+                <td>45</td>
+                <td>27</td>
+                <td>18</td>
+                <td><strong>48</strong></td>
+            </tr>
+            
+            <tr>
+                <td>21</td>
+                <td class="team-name">Chelsea FC</td>
+                <td>35</td>
+                <td>13</td>
+                <td>9</td>
+                <td>13</td>
+                <td>54</td>
+                <td>48</td>
+                <td>6</td>
+                <td><strong>48</strong></td>
+            </tr>
+            
+            <tr>
+                <td>22</td>
+                <td class="team-name">Everton FC</td>
+                <td>35</td>
+                <td>13</td>
+                <td>9</td>
+                <td>13</td>
+                <td>44</td>
+                <td>44</td>
+                <td>0</td>
+                <td><strong>48</strong></td>
+            </tr>
+            
+            <tr>
+                <td>23</td>
+                <td class="team-name">Fulham FC</td>
+                <td>35</td>
+                <td>14</td>
+                <td>6</td>
+                <td>15</td>
+                <td>44</td>
+                <td>49</td>
+                <td>-5</td>
+                <td><strong>48</strong></td>
+            </tr>
+            
+            <tr>
+                <td>24</td>
+                <td class="team-name">Walsall FC</td>
+                <td>23</td>
+                <td>14</td>
+                <td>5</td>
+                <td>4</td>
+                <td>32</td>
+                <td>20</td>
+                <td>12</td>
+                <td><strong>47</strong></td>
+            </tr>
+            
+            <tr>
+                <td>25</td>
+                <td class="team-name">Birmingham City FC</td>
+                <td>32</td>
+                <td>13</td>
+                <td>8</td>
+                <td>11</td>
+                <td>41</td>
+                <td>38</td>
+                <td>3</td>
+                <td><strong>47</strong></td>
+            </tr>
+            
+            <tr>
+                <td>26</td>
+                <td class="team-name">Sunderland AFC</td>
+                <td>35</td>
+                <td>12</td>
+                <td>11</td>
+                <td>12</td>
+                <td>37</td>
+                <td>46</td>
+                <td>-9</td>
+                <td><strong>47</strong></td>
+            </tr>
+            
+            <tr>
+                <td>27</td>
+                <td class="team-name">Preston North End FC</td>
+                <td>32</td>
+                <td>12</td>
+                <td>10</td>
+                <td>10</td>
+                <td>36</td>
+                <td>36</td>
+                <td>0</td>
+                <td><strong>46</strong></td>
+            </tr>
+            
+            <tr>
+                <td>28</td>
+                <td class="team-name">Milton Keynes Dons</td>
+                <td>23</td>
+                <td>13</td>
+                <td>6</td>
+                <td>4</td>
+                <td>49</td>
+                <td>25</td>
+                <td>24</td>
+                <td><strong>45</strong></td>
+            </tr>
+            
+            <tr>
+                <td>29</td>
+                <td class="team-name">Gillingham FC</td>
+                <td>23</td>
+                <td>13</td>
+                <td>6</td>
+                <td>4</td>
+                <td>31</td>
+                <td>17</td>
+                <td>14</td>
+                <td><strong>45</strong></td>
+            </tr>
+            
+            <tr>
+                <td>30</td>
+                <td class="team-name">Wycombe Wanderers</td>
+                <td>28</td>
+                <td>13</td>
+                <td>6</td>
+                <td>9</td>
+                <td>39</td>
+                <td>27</td>
+                <td>12</td>
+                <td><strong>45</strong></td>
+            </tr>
+            
+            <tr>
+                <td>31</td>
+                <td class="team-name">Stoke City FC</td>
+                <td>31</td>
+                <td>12</td>
+                <td>9</td>
+                <td>10</td>
+                <td>31</td>
+                <td>23</td>
+                <td>8</td>
+                <td><strong>45</strong></td>
+            </tr>
+            
+            <tr>
+                <td>32</td>
+                <td class="team-name">Swansea City AFC</td>
+                <td>32</td>
+                <td>12</td>
+                <td>9</td>
+                <td>11</td>
+                <td>40</td>
+                <td>36</td>
+                <td>4</td>
+                <td><strong>45</strong></td>
+            </tr>
+            
+            <tr>
+                <td>33</td>
+                <td class="team-name">Newcastle United FC</td>
+                <td>35</td>
+                <td>13</td>
+                <td>6</td>
+                <td>16</td>
+                <td>49</td>
+                <td>51</td>
+                <td>-2</td>
+                <td><strong>45</strong></td>
+            </tr>
+            
+            <tr>
+                <td>34</td>
+                <td class="team-name">Derby County FC</td>
+                <td>32</td>
+                <td>12</td>
+                <td>8</td>
+                <td>12</td>
+                <td>42</td>
+                <td>40</td>
+                <td>2</td>
+                <td><strong>44</strong></td>
+            </tr>
+            
+            <tr>
+                <td>35</td>
+                <td class="team-name">Wrexham AFC</td>
+                <td>30</td>
+                <td>11</td>
+                <td>11</td>
+                <td>8</td>
+                <td>46</td>
+                <td>45</td>
+                <td>1</td>
+                <td><strong>44</strong></td>
+            </tr>
+            
+            <tr>
+                <td>36</td>
+                <td class="team-name">Notts County</td>
+                <td>23</td>
+                <td>12</td>
+                <td>7</td>
+                <td>4</td>
+                <td>45</td>
+                <td>23</td>
+                <td>22</td>
+                <td><strong>43</strong></td>
+            </tr>
+            
+            <tr>
+                <td>37</td>
+                <td class="team-name">Lincoln City</td>
+                <td>27</td>
+                <td>12</td>
+                <td>7</td>
+                <td>8</td>
+                <td>37</td>
+                <td>25</td>
+                <td>12</td>
+                <td><strong>43</strong></td>
+            </tr>
+            
+            <tr>
+                <td>38</td>
+                <td class="team-name">Bradford City</td>
+                <td>25</td>
+                <td>11</td>
+                <td>10</td>
+                <td>4</td>
+                <td>31</td>
+                <td>23</td>
+                <td>8</td>
+                <td><strong>43</strong></td>
+            </tr>
+            
+            <tr>
+                <td>39</td>
+                <td class="team-name">Leeds United FC</td>
+                <td>35</td>
+                <td>10</td>
+                <td>13</td>
+                <td>12</td>
+                <td>47</td>
+                <td>52</td>
+                <td>-5</td>
+                <td><strong>43</strong></td>
+            </tr>
+            
+            <tr>
+                <td>40</td>
+                <td class="team-name">Crystal Palace FC</td>
+                <td>34</td>
+                <td>11</td>
+                <td>10</td>
+                <td>13</td>
+                <td>36</td>
+                <td>42</td>
+                <td>-6</td>
+                <td><strong>43</strong></td>
+            </tr>
+            
+            <tr>
+                <td>41</td>
+                <td class="team-name">West Bromwich Albion FC</td>
+                <td>32</td>
+                <td>11</td>
+                <td>10</td>
+                <td>11</td>
+                <td>28</td>
+                <td>36</td>
+                <td>-8</td>
+                <td><strong>43</strong></td>
+            </tr>
+            
+            <tr>
+                <td>42</td>
+                <td class="team-name">Wigan Athletic</td>
+                <td>26</td>
+                <td>12</td>
+                <td>6</td>
+                <td>8</td>
+                <td>32</td>
+                <td>22</td>
+                <td>10</td>
+                <td><strong>42</strong></td>
+            </tr>
+            
+            <tr>
+                <td>43</td>
+                <td class="team-name">Crewe Alexandra</td>
+                <td>23</td>
+                <td>13</td>
+                <td>3</td>
+                <td>7</td>
+                <td>32</td>
+                <td>23</td>
+                <td>9</td>
+                <td><strong>42</strong></td>
+            </tr>
+            
+            <tr>
+                <td>44</td>
+                <td class="team-name">Norwich City FC</td>
+                <td>32</td>
+                <td>12</td>
+                <td>6</td>
+                <td>14</td>
+                <td>46</td>
+                <td>40</td>
+                <td>6</td>
+                <td><strong>42</strong></td>
+            </tr>
+            
+            <tr>
+                <td>45</td>
+                <td class="team-name">Nottingham Forest FC</td>
+                <td>35</td>
+                <td>11</td>
+                <td>9</td>
+                <td>15</td>
+                <td>44</td>
+                <td>46</td>
+                <td>-2</td>
+                <td><strong>42</strong></td>
+            </tr>
+            
+            <tr>
+                <td>46</td>
+                <td class="team-name">Charlton Athletic FC</td>
+                <td>32</td>
+                <td>11</td>
+                <td>9</td>
+                <td>12</td>
+                <td>28</td>
+                <td>33</td>
+                <td>-5</td>
+                <td><strong>42</strong></td>
+            </tr>
+            
+            <tr>
+                <td>47</td>
+                <td class="team-name">Barnsley FC</td>
+                <td>23</td>
+                <td>12</td>
+                <td>5</td>
+                <td>6</td>
+                <td>39</td>
+                <td>29</td>
+                <td>10</td>
+                <td><strong>41</strong></td>
+            </tr>
+            
+            <tr>
+                <td>48</td>
+                <td class="team-name">Blackburn Rovers FC</td>
+                <td>29</td>
+                <td>12</td>
+                <td>5</td>
+                <td>12</td>
+                <td>33</td>
+                <td>34</td>
+                <td>-1</td>
+                <td><strong>41</strong></td>
+            </tr>
+            
+            <tr>
+                <td>49</td>
+                <td class="team-name">Bristol Rovers</td>
+                <td>23</td>
+                <td>12</td>
+                <td>4</td>
+                <td>7</td>
+                <td>32</td>
+                <td>29</td>
+                <td>3</td>
+                <td><strong>40</strong></td>
+            </tr>
+            
+            <tr>
+                <td>50</td>
+                <td class="team-name">Bristol City FC</td>
+                <td>30</td>
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
+                <td>39</td>
+                <td>40</td>
+                <td>-1</td>
+                <td><strong>40</strong></td>
+            </tr>
+            
+            <tr>
+                <td>51</td>
+                <td class="team-name">Hull City AFC</td>
+                <td>30</td>
+                <td>11</td>
+                <td>7</td>
+                <td>12</td>
+                <td>45</td>
+                <td>48</td>
+                <td>-3</td>
+                <td><strong>40</strong></td>
+            </tr>
+            
+            <tr>
+                <td>52</td>
+                <td class="team-name">Watford FC</td>
+                <td>30</td>
+                <td>9</td>
+                <td>12</td>
+                <td>9</td>
+                <td>37</td>
+                <td>36</td>
+                <td>1</td>
+                <td><strong>39</strong></td>
+            </tr>
+            
+            <tr>
+                <td>53</td>
+                <td class="team-name">Peterborough United</td>
+                <td>26</td>
+                <td>12</td>
+                <td>2</td>
+                <td>12</td>
+                <td>47</td>
+                <td>41</td>
+                <td>6</td>
+                <td><strong>38</strong></td>
+            </tr>
+            
+            <tr>
+                <td>54</td>
+                <td class="team-name">Swindon Town</td>
+                <td>23</td>
+                <td>11</td>
+                <td>5</td>
+                <td>7</td>
+                <td>35</td>
+                <td>31</td>
+                <td>4</td>
+                <td><strong>38</strong></td>
+            </tr>
+            
+            <tr>
+                <td>55</td>
+                <td class="team-name">Stevenage FC</td>
+                <td>24</td>
+                <td>11</td>
+                <td>5</td>
+                <td>8</td>
+                <td>26</td>
+                <td>25</td>
+                <td>1</td>
+                <td><strong>38</strong></td>
+            </tr>
+            
+            <tr>
+                <td>56</td>
+                <td class="team-name">AFC Wimbledon</td>
+                <td>26</td>
+                <td>12</td>
+                <td>2</td>
+                <td>12</td>
+                <td>28</td>
+                <td>30</td>
+                <td>-2</td>
+                <td><strong>38</strong></td>
+            </tr>
+            
+            <tr>
+                <td>57</td>
+                <td class="team-name">Rotherham United</td>
+                <td>26</td>
+                <td>11</td>
+                <td>5</td>
+                <td>10</td>
+                <td>27</td>
+                <td>30</td>
+                <td>-3</td>
+                <td><strong>38</strong></td>
+            </tr>
+            
+            <tr>
+                <td>58</td>
+                <td class="team-name">Tottenham Hotspur FC</td>
+                <td>35</td>
+                <td>9</td>
+                <td>10</td>
+                <td>16</td>
+                <td>45</td>
+                <td>54</td>
+                <td>-9</td>
+                <td><strong>37</strong></td>
+            </tr>
+            
+            <tr>
+                <td>59</td>
+                <td class="team-name">Chesterfield FC</td>
+                <td>23</td>
+                <td>9</td>
+                <td>9</td>
+                <td>5</td>
+                <td>41</td>
+                <td>37</td>
+                <td>4</td>
+                <td><strong>36</strong></td>
+            </tr>
+            
+            <tr>
+                <td>60</td>
+                <td class="team-name">Fleetwood Town</td>
+                <td>23</td>
+                <td>10</td>
+                <td>6</td>
+                <td>7</td>
+                <td>30</td>
+                <td>29</td>
+                <td>1</td>
+                <td><strong>36</strong></td>
+            </tr>
+            
+            <tr>
+                <td>61</td>
+                <td class="team-name">West Ham United FC</td>
+                <td>35</td>
+                <td>9</td>
+                <td>9</td>
+                <td>17</td>
+                <td>42</td>
+                <td>61</td>
+                <td>-19</td>
+                <td><strong>36</strong></td>
+            </tr>
+            
+            <tr>
+                <td>62</td>
+                <td class="team-name">Bromley FC</td>
+                <td>23</td>
+                <td>8</td>
+                <td>11</td>
+                <td>4</td>
+                <td>33</td>
+                <td>27</td>
+                <td>6</td>
+                <td><strong>35</strong></td>
+            </tr>
+            
+            <tr>
+                <td>63</td>
+                <td class="team-name">Barrow AFC</td>
+                <td>23</td>
+                <td>10</td>
+                <td>5</td>
+                <td>8</td>
+                <td>21</td>
+                <td>20</td>
+                <td>1</td>
+                <td><strong>35</strong></td>
+            </tr>
+            
+            <tr>
+                <td>64</td>
+                <td class="team-name">Queens Park Rangers FC</td>
+                <td>32</td>
+                <td>9</td>
+                <td>8</td>
+                <td>15</td>
+                <td>36</td>
+                <td>50</td>
+                <td>-14</td>
+                <td><strong>35</strong></td>
+            </tr>
+            
+            <tr>
+                <td>65</td>
+                <td class="team-name">Cambridge United</td>
+                <td>23</td>
+                <td>9</td>
+                <td>6</td>
+                <td>8</td>
+                <td>26</td>
+                <td>24</td>
+                <td>2</td>
+                <td><strong>33</strong></td>
+            </tr>
+            
+            <tr>
+                <td>66</td>
+                <td class="team-name">Reading FC</td>
+                <td>27</td>
+                <td>7</td>
+                <td>11</td>
+                <td>9</td>
+                <td>32</td>
+                <td>35</td>
+                <td>-3</td>
+                <td><strong>32</strong></td>
+            </tr>
+            
+            <tr>
+                <td>67</td>
+                <td class="team-name">Mansfield Town</td>
+                <td>27</td>
+                <td>8</td>
+                <td>7</td>
+                <td>12</td>
+                <td>32</td>
+                <td>36</td>
+                <td>-4</td>
+                <td><strong>31</strong></td>
+            </tr>
+            
+            <tr>
+                <td>68</td>
+                <td class="team-name">Plymouth Argyle</td>
+                <td>27</td>
+                <td>9</td>
+                <td>4</td>
+                <td>14</td>
+                <td>31</td>
+                <td>40</td>
+                <td>-9</td>
+                <td><strong>31</strong></td>
+            </tr>
+            
+            <tr>
+                <td>69</td>
+                <td class="team-name">Exeter City</td>
+                <td>26</td>
+                <td>9</td>
+                <td>3</td>
+                <td>14</td>
+                <td>24</td>
+                <td>30</td>
+                <td>-6</td>
+                <td><strong>30</strong></td>
+            </tr>
+            
+            <tr>
+                <td>70</td>
+                <td class="team-name">Sheffield United FC</td>
+                <td>31</td>
+                <td>8</td>
+                <td>6</td>
+                <td>17</td>
+                <td>28</td>
+                <td>42</td>
+                <td>-14</td>
+                <td><strong>30</strong></td>
+            </tr>
+            
+            <tr>
+                <td>71</td>
+                <td class="team-name">Blackpool FC</td>
+                <td>26</td>
+                <td>8</td>
+                <td>4</td>
+                <td>14</td>
+                <td>26</td>
+                <td>36</td>
+                <td>-10</td>
+                <td><strong>28</strong></td>
+            </tr>
+            
+            <tr>
+                <td>72</td>
+                <td class="team-name">Grimsby Town</td>
+                <td>23</td>
+                <td>7</td>
+                <td>5</td>
+                <td>11</td>
+                <td>32</td>
+                <td>33</td>
+                <td>-1</td>
+                <td><strong>26</strong></td>
+            </tr>
+            
+            <tr>
+                <td>73</td>
+                <td class="team-name">Colchester United</td>
+                <td>23</td>
+                <td>6</td>
+                <td>8</td>
+                <td>9</td>
+                <td>29</td>
+                <td>36</td>
+                <td>-7</td>
+                <td><strong>26</strong></td>
+            </tr>
+            
+            <tr>
+                <td>74</td>
+                <td class="team-name">Barnet FC</td>
+                <td>23</td>
+                <td>7</td>
+                <td>3</td>
+                <td>13</td>
+                <td>24</td>
+                <td>34</td>
+                <td>-10</td>
+                <td><strong>24</strong></td>
+            </tr>
+            
+            <tr>
+                <td>75</td>
+                <td class="team-name">Leyton Orient</td>
+                <td>27</td>
+                <td>6</td>
+                <td>6</td>
+                <td>15</td>
+                <td>35</td>
+                <td>48</td>
+                <td>-13</td>
+                <td><strong>24</strong></td>
+            </tr>
+            
+            <tr>
+                <td>76</td>
+                <td class="team-name">Northampton Town</td>
+                <td>27</td>
+                <td>6</td>
+                <td>6</td>
+                <td>15</td>
+                <td>19</td>
+                <td>33</td>
+                <td>-14</td>
+                <td><strong>24</strong></td>
+            </tr>
+            
+            <tr>
+                <td>77</td>
+                <td class="team-name">Portsmouth FC</td>
+                <td>30</td>
+                <td>5</td>
+                <td>9</td>
+                <td>16</td>
+                <td>22</td>
+                <td>42</td>
+                <td>-20</td>
+                <td><strong>24</strong></td>
+            </tr>
+            
+            <tr>
+                <td>78</td>
+                <td class="team-name">Oldham Athletic</td>
+                <td>23</td>
+                <td>4</td>
+                <td>11</td>
+                <td>8</td>
+                <td>16</td>
+                <td>19</td>
+                <td>-3</td>
+                <td><strong>23</strong></td>
+            </tr>
+            
+            <tr>
+                <td>79</td>
+                <td class="team-name">Accrington Stanley</td>
+                <td>23</td>
+                <td>5</td>
+                <td>8</td>
+                <td>10</td>
+                <td>20</td>
+                <td>27</td>
+                <td>-7</td>
+                <td><strong>23</strong></td>
+            </tr>
+            
+            <tr>
+                <td>80</td>
+                <td class="team-name">Doncaster Rovers</td>
+                <td>26</td>
+                <td>6</td>
+                <td>5</td>
+                <td>15</td>
+                <td>23</td>
+                <td>44</td>
+                <td>-21</td>
+                <td><strong>23</strong></td>
+            </tr>
+            
+            <tr>
+                <td>81</td>
+                <td class="team-name">Tranmere Rovers</td>
+                <td>23</td>
+                <td>4</td>
+                <td>10</td>
+                <td>9</td>
+                <td>24</td>
+                <td>28</td>
+                <td>-4</td>
+                <td><strong>22</strong></td>
+            </tr>
+            
+            <tr>
+                <td>82</td>
+                <td class="team-name">Shrewsbury Town</td>
+                <td>23</td>
+                <td>5</td>
+                <td>7</td>
+                <td>11</td>
+                <td>19</td>
+                <td>31</td>
+                <td>-12</td>
+                <td><strong>22</strong></td>
+            </tr>
+            
+            <tr>
+                <td>83</td>
+                <td class="team-name">Burton Albion</td>
+                <td>25</td>
+                <td>5</td>
+                <td>6</td>
+                <td>14</td>
+                <td>23</td>
+                <td>37</td>
+                <td>-14</td>
+                <td><strong>21</strong></td>
+            </tr>
+            
+            <tr>
+                <td>84</td>
+                <td class="team-name">Oxford United FC</td>
+                <td>31</td>
+                <td>4</td>
+                <td>8</td>
+                <td>19</td>
+                <td>21</td>
+                <td>51</td>
+                <td>-30</td>
+                <td><strong>20</strong></td>
+            </tr>
+            
+            <tr>
+                <td>85</td>
+                <td class="team-name">Burnley FC</td>
+                <td>35</td>
+                <td>4</td>
+                <td>8</td>
+                <td>23</td>
+                <td>35</td>
+                <td>71</td>
+                <td>-36</td>
+                <td><strong>20</strong></td>
+            </tr>
+            
+            <tr>
+                <td>86</td>
+                <td class="team-name">Port Vale FC</td>
+                <td>27</td>
+                <td>4</td>
+                <td>7</td>
+                <td>16</td>
+                <td>21</td>
+                <td>36</td>
+                <td>-15</td>
+                <td><strong>19</strong></td>
+            </tr>
+            
+            <tr>
+                <td>87</td>
+                <td class="team-name">Newport County</td>
+                <td>23</td>
+                <td>4</td>
+                <td>6</td>
+                <td>13</td>
+                <td>24</td>
+                <td>35</td>
+                <td>-11</td>
+                <td><strong>18</strong></td>
+            </tr>
+            
+            <tr>
+                <td>88</td>
+                <td class="team-name">Wolverhampton Wanderers FC</td>
+                <td>35</td>
+                <td>3</td>
+                <td>9</td>
+                <td>23</td>
+                <td>25</td>
+                <td>63</td>
+                <td>-38</td>
+                <td><strong>18</strong></td>
+            </tr>
+            
+            <tr>
+                <td>89</td>
+                <td class="team-name">Harrogate Town</td>
+                <td>23</td>
+                <td>4</td>
+                <td>5</td>
+                <td>14</td>
+                <td>20</td>
+                <td>41</td>
+                <td>-21</td>
+                <td><strong>17</strong></td>
+            </tr>
+            
+            <tr>
+                <td>90</td>
+                <td class="team-name">Cheltenham Town</td>
+                <td>23</td>
+                <td>4</td>
+                <td>5</td>
+                <td>14</td>
+                <td>13</td>
+                <td>38</td>
+                <td>-25</td>
+                <td><strong>17</strong></td>
+            </tr>
+            
+            <tr>
+                <td>91</td>
+                <td class="team-name">Sheffield Wednesday FC</td>
+                <td>31</td>
+                <td>2</td>
+                <td>8</td>
+                <td>21</td>
+                <td>18</td>
+                <td>55</td>
+                <td>-37</td>
+                <td><strong>14</strong></td>
+            </tr>
+            
+            <tr>
+                <td>92</td>
+                <td class="team-name">Crawley Town</td>
+                <td>23</td>
+                <td>3</td>
+                <td>4</td>
+                <td>16</td>
+                <td>18</td>
+                <td>37</td>
+                <td>-19</td>
+                <td><strong>13</strong></td>
+            </tr>
+            
+            <tr>
+                <td>93</td>
+                <td class="team-name">Cardiff</td>
+                <td>5</td>
+                <td>2</td>
+                <td>3</td>
+                <td>0</td>
+                <td>9</td>
+                <td>5</td>
+                <td>4</td>
+                <td><strong>9</strong></td>
+            </tr>
+            
+            <tr>
+                <td>94</td>
+                <td class="team-name">Lincoln</td>
+                <td>3</td>
+                <td>2</td>
+                <td>1</td>
+                <td>0</td>
+                <td>7</td>
+                <td>3</td>
+                <td>4</td>
+                <td><strong>7</strong></td>
+            </tr>
+            
+            <tr>
+                <td>95</td>
+                <td class="team-name">AFC</td>
+                <td>4</td>
+                <td>2</td>
+                <td>1</td>
+                <td>1</td>
+                <td>5</td>
+                <td>4</td>
+                <td>1</td>
+                <td><strong>7</strong></td>
+            </tr>
+            
+            <tr>
+                <td>96</td>
+                <td class="team-name">Bolton</td>
+                <td>4</td>
+                <td>2</td>
+                <td>1</td>
+                <td>1</td>
+                <td>4</td>
+                <td>4</td>
+                <td>0</td>
+                <td><strong>7</strong></td>
+            </tr>
+            
+            <tr>
+                <td>97</td>
+                <td class="team-name">Exeter</td>
+                <td>4</td>
+                <td>1</td>
+                <td>3</td>
+                <td>0</td>
+                <td>7</td>
+                <td>5</td>
+                <td>2</td>
+                <td><strong>6</strong></td>
+            </tr>
+            
+            <tr>
+                <td>98</td>
+                <td class="team-name">Peterborough</td>
+                <td>4</td>
+                <td>2</td>
+                <td>0</td>
+                <td>2</td>
+                <td>6</td>
+                <td>6</td>
+                <td>0</td>
+                <td><strong>6</strong></td>
+            </tr>
+            
+            <tr>
+                <td>99</td>
+                <td class="team-name">Doncaster</td>
+                <td>4</td>
+                <td>2</td>
+                <td>0</td>
+                <td>2</td>
+                <td>3</td>
+                <td>6</td>
+                <td>-3</td>
+                <td><strong>6</strong></td>
+            </tr>
+            
+            <tr>
+                <td>100</td>
+                <td class="team-name">Stockport</td>
+                <td>4</td>
+                <td>1</td>
+                <td>2</td>
+                <td>1</td>
+                <td>3</td>
+                <td>3</td>
+                <td>0</td>
+                <td><strong>5</strong></td>
+            </tr>
+            
+            <tr>
+                <td>101</td>
+                <td class="team-name">Wycombe</td>
+                <td>2</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td>2</td>
+                <td>1</td>
+                <td>1</td>
+                <td><strong>4</strong></td>
+            </tr>
+            
+            <tr>
+                <td>102</td>
+                <td class="team-name">Plymouth</td>
+                <td>3</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>3</td>
+                <td>3</td>
+                <td>0</td>
+                <td><strong>4</strong></td>
+            </tr>
+            
+            <tr>
+                <td>103</td>
+                <td class="team-name">Huddersfield</td>
+                <td>4</td>
+                <td>1</td>
+                <td>1</td>
+                <td>2</td>
+                <td>5</td>
+                <td>7</td>
+                <td>-2</td>
+                <td><strong>4</strong></td>
+            </tr>
+            
+            <tr>
+                <td>104</td>
+                <td class="team-name">Rotherham</td>
+                <td>2</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>6</td>
+                <td>3</td>
+                <td>3</td>
+                <td><strong>3</strong></td>
+            </tr>
+            
+            <tr>
+                <td>105</td>
+                <td class="team-name">Millwall</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>2</td>
+                <td>0</td>
+                <td>2</td>
+                <td><strong>3</strong></td>
+            </tr>
+            
+            <tr>
+                <td>106</td>
+                <td class="team-name">Bristol City</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>3</td>
+                <td>2</td>
+                <td>1</td>
+                <td><strong>3</strong></td>
+            </tr>
+            
+            <tr>
+                <td>107</td>
+                <td class="team-name">Ipswich Town</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>2</td>
+                <td>1</td>
+                <td>1</td>
+                <td><strong>3</strong></td>
+            </tr>
+            
+            <tr>
+                <td>108</td>
+                <td class="team-name">Reading</td>
+                <td>3</td>
+                <td>1</td>
+                <td>0</td>
+                <td>2</td>
+                <td>5</td>
+                <td>6</td>
+                <td>-1</td>
+                <td><strong>3</strong></td>
+            </tr>
+            
+            <tr>
+                <td>109</td>
+                <td class="team-name">Port Vale</td>
+                <td>2</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>1</td>
+                <td>3</td>
+                <td>-2</td>
+                <td><strong>3</strong></td>
+            </tr>
+            
+            <tr>
+                <td>110</td>
+                <td class="team-name">Bradford</td>
+                <td>5</td>
+                <td>1</td>
+                <td>0</td>
+                <td>4</td>
+                <td>3</td>
+                <td>10</td>
+                <td>-7</td>
+                <td><strong>3</strong></td>
+            </tr>
+            
+            <tr>
+                <td>111</td>
+                <td class="team-name">Mansfield</td>
+                <td>2</td>
+                <td>0</td>
+                <td>2</td>
+                <td>0</td>
+                <td>2</td>
+                <td>2</td>
+                <td>0</td>
+                <td><strong>2</strong></td>
+            </tr>
+            
+            <tr>
+                <td>112</td>
+                <td class="team-name">Barnsley</td>
+                <td>4</td>
+                <td>0</td>
+                <td>2</td>
+                <td>2</td>
+                <td>5</td>
+                <td>10</td>
+                <td>-5</td>
+                <td><strong>2</strong></td>
+            </tr>
+            
+            <tr>
+                <td>113</td>
+                <td class="team-name">Stoke City</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td><strong>1</strong></td>
+            </tr>
+            
+            <tr>
+                <td>114</td>
+                <td class="team-name">Northampton</td>
+                <td>3</td>
+                <td>0</td>
+                <td>1</td>
+                <td>2</td>
+                <td>1</td>
+                <td>4</td>
+                <td>-3</td>
+                <td><strong>1</strong></td>
+            </tr>
+            
+            <tr>
+                <td>115</td>
+                <td class="team-name">Leyton</td>
+                <td>3</td>
+                <td>0</td>
+                <td>1</td>
+                <td>2</td>
+                <td>1</td>
+                <td>5</td>
+                <td>-4</td>
+                <td><strong>1</strong></td>
+            </tr>
+            
+            <tr>
+                <td>116</td>
+                <td class="team-name">Blackpool</td>
+                <td>4</td>
+                <td>0</td>
+                <td>1</td>
+                <td>3</td>
+                <td>4</td>
+                <td>10</td>
+                <td>-6</td>
+                <td><strong>1</strong></td>
+            </tr>
+            
+            <tr>
+                <td>117</td>
+                <td class="team-name">Burton</td>
+                <td>5</td>
+                <td>0</td>
+                <td>1</td>
+                <td>4</td>
+                <td>4</td>
+                <td>11</td>
+                <td>-7</td>
+                <td><strong>1</strong></td>
+            </tr>
+            
+            <tr>
+                <td>118</td>
+                <td class="team-name">Wigan</td>
+                <td>4</td>
+                <td>0</td>
+                <td>1</td>
+                <td>3</td>
+                <td>4</td>
+                <td>12</td>
+                <td>-8</td>
+                <td><strong>1</strong></td>
+            </tr>
+            
+            <tr>
+                <td>119</td>
+                <td class="team-name">Portsmouth</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>-1</td>
+                <td><strong>0</strong></td>
+            </tr>
+            
+            <tr>
+                <td>120</td>
+                <td class="team-name">Watford</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>-1</td>
+                <td><strong>0</strong></td>
+            </tr>
+            
+            <tr>
+                <td>121</td>
+                <td class="team-name">Leicester City</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>2</td>
+                <td>-2</td>
+                <td><strong>0</strong></td>
+            </tr>
+            
+            <tr>
+                <td>122</td>
+                <td class="team-name">Blackburn Rovers</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>2</td>
+                <td>-2</td>
+                <td><strong>0</strong></td>
+            </tr>
+            
+            <tr>
+                <td>123</td>
+                <td class="team-name">Luton</td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td>3</td>
+                <td>0</td>
+                <td>3</td>
+                <td>-3</td>
+                <td><strong>0</strong></td>
+            </tr>
+            
+            <tr>
+                <td>124</td>
+                <td class="team-name">Sheffield Wednesday</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>4</td>
+                <td>-4</td>
+                <td><strong>0</strong></td>
+            </tr>
+            
+            <tr>
+                <td>125</td>
+                <td class="team-name">Stevenage</td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td>4</td>
+                <td>3</td>
+                <td>11</td>
+                <td>-8</td>
+                <td><strong>0</strong></td>
+            </tr>
+            </tbody>
                 </table>
             </div>
         </div>
@@ -49,12 +1669,555 @@
             <div class="table-responsive">
                 <table class="table table-striped table-hover">
                     <thead>
-                        <tr>
-                            <th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th>
-                            <th>进球</th><th>失球</th><th>净胜球</th><th>积分</th>
-                        </tr>
+                        <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>进球</th><th>失球</th><th>净胜球</th><th>积分</th></tr>
                     </thead>
-                    <tbody></tbody>
+                    <tbody>
+            <tr>
+                <td>1</td>
+                <td class="team-name">FC Barcelona</td>
+                <td>34</td>
+                <td>29</td>
+                <td>1</td>
+                <td>4</td>
+                <td>89</td>
+                <td>31</td>
+                <td>58</td>
+                <td><strong>88</strong></td>
+            </tr>
+            
+            <tr>
+                <td>2</td>
+                <td class="team-name">Real Madrid CF</td>
+                <td>34</td>
+                <td>24</td>
+                <td>5</td>
+                <td>5</td>
+                <td>70</td>
+                <td>31</td>
+                <td>39</td>
+                <td><strong>77</strong></td>
+            </tr>
+            
+            <tr>
+                <td>3</td>
+                <td class="team-name">Villarreal CF</td>
+                <td>34</td>
+                <td>21</td>
+                <td>5</td>
+                <td>8</td>
+                <td>64</td>
+                <td>39</td>
+                <td>25</td>
+                <td><strong>68</strong></td>
+            </tr>
+            
+            <tr>
+                <td>4</td>
+                <td class="team-name">Club Atlético de Madrid</td>
+                <td>34</td>
+                <td>19</td>
+                <td>6</td>
+                <td>9</td>
+                <td>58</td>
+                <td>37</td>
+                <td>21</td>
+                <td><strong>63</strong></td>
+            </tr>
+            
+            <tr>
+                <td>5</td>
+                <td class="team-name">Real Betis Balompié</td>
+                <td>34</td>
+                <td>13</td>
+                <td>14</td>
+                <td>7</td>
+                <td>52</td>
+                <td>41</td>
+                <td>11</td>
+                <td><strong>53</strong></td>
+            </tr>
+            
+            <tr>
+                <td>6</td>
+                <td class="team-name">RC Celta de Vigo</td>
+                <td>34</td>
+                <td>12</td>
+                <td>11</td>
+                <td>11</td>
+                <td>48</td>
+                <td>44</td>
+                <td>4</td>
+                <td><strong>47</strong></td>
+            </tr>
+            
+            <tr>
+                <td>7</td>
+                <td class="team-name">Getafe CF</td>
+                <td>34</td>
+                <td>13</td>
+                <td>5</td>
+                <td>16</td>
+                <td>28</td>
+                <td>36</td>
+                <td>-8</td>
+                <td><strong>44</strong></td>
+            </tr>
+            
+            <tr>
+                <td>8</td>
+                <td class="team-name">Athletic Club</td>
+                <td>34</td>
+                <td>13</td>
+                <td>5</td>
+                <td>16</td>
+                <td>40</td>
+                <td>50</td>
+                <td>-10</td>
+                <td><strong>44</strong></td>
+            </tr>
+            
+            <tr>
+                <td>9</td>
+                <td class="team-name">Real Sociedad de Fútbol</td>
+                <td>34</td>
+                <td>11</td>
+                <td>10</td>
+                <td>13</td>
+                <td>52</td>
+                <td>53</td>
+                <td>-1</td>
+                <td><strong>43</strong></td>
+            </tr>
+            
+            <tr>
+                <td>10</td>
+                <td class="team-name">CA Osasuna</td>
+                <td>34</td>
+                <td>11</td>
+                <td>9</td>
+                <td>14</td>
+                <td>40</td>
+                <td>42</td>
+                <td>-2</td>
+                <td><strong>42</strong></td>
+            </tr>
+            
+            <tr>
+                <td>11</td>
+                <td class="team-name">Rayo Vallecano de Madrid</td>
+                <td>34</td>
+                <td>10</td>
+                <td>12</td>
+                <td>12</td>
+                <td>35</td>
+                <td>41</td>
+                <td>-6</td>
+                <td><strong>42</strong></td>
+            </tr>
+            
+            <tr>
+                <td>12</td>
+                <td class="team-name">Valencia CF</td>
+                <td>34</td>
+                <td>10</td>
+                <td>9</td>
+                <td>15</td>
+                <td>37</td>
+                <td>50</td>
+                <td>-13</td>
+                <td><strong>39</strong></td>
+            </tr>
+            
+            <tr>
+                <td>13</td>
+                <td class="team-name">RCD Espanyol de Barcelona</td>
+                <td>34</td>
+                <td>10</td>
+                <td>9</td>
+                <td>15</td>
+                <td>37</td>
+                <td>51</td>
+                <td>-14</td>
+                <td><strong>39</strong></td>
+            </tr>
+            
+            <tr>
+                <td>14</td>
+                <td class="team-name">Elche CF</td>
+                <td>34</td>
+                <td>9</td>
+                <td>11</td>
+                <td>14</td>
+                <td>45</td>
+                <td>53</td>
+                <td>-8</td>
+                <td><strong>38</strong></td>
+            </tr>
+            
+            <tr>
+                <td>15</td>
+                <td class="team-name">RCD Mallorca</td>
+                <td>34</td>
+                <td>10</td>
+                <td>8</td>
+                <td>16</td>
+                <td>42</td>
+                <td>51</td>
+                <td>-9</td>
+                <td><strong>38</strong></td>
+            </tr>
+            
+            <tr>
+                <td>16</td>
+                <td class="team-name">Girona FC</td>
+                <td>34</td>
+                <td>9</td>
+                <td>11</td>
+                <td>14</td>
+                <td>36</td>
+                <td>51</td>
+                <td>-15</td>
+                <td><strong>38</strong></td>
+            </tr>
+            
+            <tr>
+                <td>17</td>
+                <td class="team-name">Sevilla FC</td>
+                <td>34</td>
+                <td>10</td>
+                <td>7</td>
+                <td>17</td>
+                <td>41</td>
+                <td>55</td>
+                <td>-14</td>
+                <td><strong>37</strong></td>
+            </tr>
+            
+            <tr>
+                <td>18</td>
+                <td class="team-name">Deportivo Alavés</td>
+                <td>34</td>
+                <td>9</td>
+                <td>9</td>
+                <td>16</td>
+                <td>40</td>
+                <td>53</td>
+                <td>-13</td>
+                <td><strong>36</strong></td>
+            </tr>
+            
+            <tr>
+                <td>19</td>
+                <td class="team-name">Levante UD</td>
+                <td>34</td>
+                <td>8</td>
+                <td>9</td>
+                <td>17</td>
+                <td>38</td>
+                <td>55</td>
+                <td>-17</td>
+                <td><strong>33</strong></td>
+            </tr>
+            
+            <tr>
+                <td>20</td>
+                <td class="team-name">Real Oviedo</td>
+                <td>34</td>
+                <td>6</td>
+                <td>10</td>
+                <td>18</td>
+                <td>26</td>
+                <td>54</td>
+                <td>-28</td>
+                <td><strong>28</strong></td>
+            </tr>
+            
+            <tr>
+                <td>21</td>
+                <td class="team-name">Racing Santander</td>
+                <td>12</td>
+                <td>8</td>
+                <td>1</td>
+                <td>3</td>
+                <td>28</td>
+                <td>18</td>
+                <td>10</td>
+                <td><strong>25</strong></td>
+            </tr>
+            
+            <tr>
+                <td>22</td>
+                <td class="team-name">UD Almería</td>
+                <td>12</td>
+                <td>6</td>
+                <td>4</td>
+                <td>2</td>
+                <td>23</td>
+                <td>18</td>
+                <td>5</td>
+                <td><strong>22</strong></td>
+            </tr>
+            
+            <tr>
+                <td>23</td>
+                <td class="team-name">Burgos CF</td>
+                <td>12</td>
+                <td>6</td>
+                <td>3</td>
+                <td>3</td>
+                <td>19</td>
+                <td>12</td>
+                <td>7</td>
+                <td><strong>21</strong></td>
+            </tr>
+            
+            <tr>
+                <td>24</td>
+                <td class="team-name">Deportivo La Coruña</td>
+                <td>12</td>
+                <td>5</td>
+                <td>5</td>
+                <td>2</td>
+                <td>21</td>
+                <td>12</td>
+                <td>9</td>
+                <td><strong>20</strong></td>
+            </tr>
+            
+            <tr>
+                <td>25</td>
+                <td class="team-name">UD Las Palmas</td>
+                <td>12</td>
+                <td>5</td>
+                <td>5</td>
+                <td>2</td>
+                <td>12</td>
+                <td>7</td>
+                <td>5</td>
+                <td><strong>20</strong></td>
+            </tr>
+            
+            <tr>
+                <td>26</td>
+                <td class="team-name">Cádiz CF</td>
+                <td>12</td>
+                <td>5</td>
+                <td>5</td>
+                <td>2</td>
+                <td>11</td>
+                <td>9</td>
+                <td>2</td>
+                <td><strong>20</strong></td>
+            </tr>
+            
+            <tr>
+                <td>27</td>
+                <td class="team-name">Real Valladolid</td>
+                <td>12</td>
+                <td>5</td>
+                <td>4</td>
+                <td>3</td>
+                <td>15</td>
+                <td>11</td>
+                <td>4</td>
+                <td><strong>19</strong></td>
+            </tr>
+            
+            <tr>
+                <td>28</td>
+                <td class="team-name">Córdoba CF</td>
+                <td>12</td>
+                <td>5</td>
+                <td>4</td>
+                <td>3</td>
+                <td>16</td>
+                <td>14</td>
+                <td>2</td>
+                <td><strong>19</strong></td>
+            </tr>
+            
+            <tr>
+                <td>29</td>
+                <td class="team-name">Sporting Gijón</td>
+                <td>12</td>
+                <td>6</td>
+                <td>1</td>
+                <td>5</td>
+                <td>17</td>
+                <td>17</td>
+                <td>0</td>
+                <td><strong>19</strong></td>
+            </tr>
+            
+            <tr>
+                <td>30</td>
+                <td class="team-name">AD Ceuta FC</td>
+                <td>12</td>
+                <td>5</td>
+                <td>3</td>
+                <td>4</td>
+                <td>11</td>
+                <td>14</td>
+                <td>-3</td>
+                <td><strong>18</strong></td>
+            </tr>
+            
+            <tr>
+                <td>31</td>
+                <td class="team-name">Albacete</td>
+                <td>12</td>
+                <td>4</td>
+                <td>4</td>
+                <td>4</td>
+                <td>18</td>
+                <td>20</td>
+                <td>-2</td>
+                <td><strong>16</strong></td>
+            </tr>
+            
+            <tr>
+                <td>32</td>
+                <td class="team-name">FC Andorra</td>
+                <td>12</td>
+                <td>4</td>
+                <td>4</td>
+                <td>4</td>
+                <td>14</td>
+                <td>17</td>
+                <td>-3</td>
+                <td><strong>16</strong></td>
+            </tr>
+            
+            <tr>
+                <td>33</td>
+                <td class="team-name">CD Leganés</td>
+                <td>12</td>
+                <td>3</td>
+                <td>6</td>
+                <td>3</td>
+                <td>11</td>
+                <td>9</td>
+                <td>2</td>
+                <td><strong>15</strong></td>
+            </tr>
+            
+            <tr>
+                <td>34</td>
+                <td class="team-name">CD Castellón</td>
+                <td>12</td>
+                <td>4</td>
+                <td>3</td>
+                <td>5</td>
+                <td>15</td>
+                <td>15</td>
+                <td>0</td>
+                <td><strong>15</strong></td>
+            </tr>
+            
+            <tr>
+                <td>35</td>
+                <td class="team-name">Cultural Leonesa</td>
+                <td>12</td>
+                <td>4</td>
+                <td>2</td>
+                <td>6</td>
+                <td>15</td>
+                <td>16</td>
+                <td>-1</td>
+                <td><strong>14</strong></td>
+            </tr>
+            
+            <tr>
+                <td>36</td>
+                <td class="team-name">Málaga CF</td>
+                <td>12</td>
+                <td>4</td>
+                <td>2</td>
+                <td>6</td>
+                <td>14</td>
+                <td>15</td>
+                <td>-1</td>
+                <td><strong>14</strong></td>
+            </tr>
+            
+            <tr>
+                <td>37</td>
+                <td class="team-name">SD Huesca</td>
+                <td>11</td>
+                <td>4</td>
+                <td>2</td>
+                <td>5</td>
+                <td>10</td>
+                <td>14</td>
+                <td>-4</td>
+                <td><strong>14</strong></td>
+            </tr>
+            
+            <tr>
+                <td>38</td>
+                <td class="team-name">SD Eibar</td>
+                <td>12</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>12</td>
+                <td>13</td>
+                <td>-1</td>
+                <td><strong>13</strong></td>
+            </tr>
+            
+            <tr>
+                <td>39</td>
+                <td class="team-name">Granada CF</td>
+                <td>12</td>
+                <td>2</td>
+                <td>5</td>
+                <td>5</td>
+                <td>12</td>
+                <td>17</td>
+                <td>-5</td>
+                <td><strong>11</strong></td>
+            </tr>
+            
+            <tr>
+                <td>40</td>
+                <td class="team-name">Real Sociedad B</td>
+                <td>11</td>
+                <td>2</td>
+                <td>3</td>
+                <td>6</td>
+                <td>14</td>
+                <td>18</td>
+                <td>-4</td>
+                <td><strong>9</strong></td>
+            </tr>
+            
+            <tr>
+                <td>41</td>
+                <td class="team-name">CD Mirandés</td>
+                <td>12</td>
+                <td>2</td>
+                <td>3</td>
+                <td>7</td>
+                <td>12</td>
+                <td>20</td>
+                <td>-8</td>
+                <td><strong>9</strong></td>
+            </tr>
+            
+            <tr>
+                <td>42</td>
+                <td class="team-name">Real Zaragoza</td>
+                <td>12</td>
+                <td>1</td>
+                <td>3</td>
+                <td>8</td>
+                <td>6</td>
+                <td>20</td>
+                <td>-14</td>
+                <td><strong>6</strong></td>
+            </tr>
+            </tbody>
                 </table>
             </div>
         </div>
@@ -63,12 +2226,477 @@
             <div class="table-responsive">
                 <table class="table table-striped table-hover">
                     <thead>
-                        <tr>
-                            <th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th>
-                            <th>进球</th><th>失球</th><th>净胜球</th><th>积分</th>
-                        </tr>
+                        <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>进球</th><th>失球</th><th>净胜球</th><th>积分</th></tr>
                     </thead>
-                    <tbody></tbody>
+                    <tbody>
+            <tr>
+                <td>1</td>
+                <td class="team-name">FC Bayern München</td>
+                <td>32</td>
+                <td>26</td>
+                <td>5</td>
+                <td>1</td>
+                <td>116</td>
+                <td>35</td>
+                <td>81</td>
+                <td><strong>83</strong></td>
+            </tr>
+            
+            <tr>
+                <td>2</td>
+                <td class="team-name">Borussia Dortmund</td>
+                <td>32</td>
+                <td>20</td>
+                <td>7</td>
+                <td>5</td>
+                <td>65</td>
+                <td>32</td>
+                <td>33</td>
+                <td><strong>67</strong></td>
+            </tr>
+            
+            <tr>
+                <td>3</td>
+                <td class="team-name">RB Leipzig</td>
+                <td>32</td>
+                <td>19</td>
+                <td>5</td>
+                <td>8</td>
+                <td>63</td>
+                <td>42</td>
+                <td>21</td>
+                <td><strong>62</strong></td>
+            </tr>
+            
+            <tr>
+                <td>4</td>
+                <td class="team-name">Bayer 04 Leverkusen</td>
+                <td>32</td>
+                <td>17</td>
+                <td>7</td>
+                <td>8</td>
+                <td>66</td>
+                <td>43</td>
+                <td>23</td>
+                <td><strong>58</strong></td>
+            </tr>
+            
+            <tr>
+                <td>5</td>
+                <td class="team-name">VfB Stuttgart</td>
+                <td>32</td>
+                <td>17</td>
+                <td>7</td>
+                <td>8</td>
+                <td>66</td>
+                <td>46</td>
+                <td>20</td>
+                <td><strong>58</strong></td>
+            </tr>
+            
+            <tr>
+                <td>6</td>
+                <td class="team-name">TSG 1899 Hoffenheim</td>
+                <td>32</td>
+                <td>17</td>
+                <td>7</td>
+                <td>8</td>
+                <td>64</td>
+                <td>48</td>
+                <td>16</td>
+                <td><strong>58</strong></td>
+            </tr>
+            
+            <tr>
+                <td>7</td>
+                <td class="team-name">SC Freiburg</td>
+                <td>32</td>
+                <td>12</td>
+                <td>8</td>
+                <td>12</td>
+                <td>45</td>
+                <td>53</td>
+                <td>-8</td>
+                <td><strong>44</strong></td>
+            </tr>
+            
+            <tr>
+                <td>8</td>
+                <td class="team-name">Eintracht Frankfurt</td>
+                <td>32</td>
+                <td>11</td>
+                <td>10</td>
+                <td>11</td>
+                <td>57</td>
+                <td>60</td>
+                <td>-3</td>
+                <td><strong>43</strong></td>
+            </tr>
+            
+            <tr>
+                <td>9</td>
+                <td class="team-name">FC Augsburg</td>
+                <td>32</td>
+                <td>11</td>
+                <td>7</td>
+                <td>14</td>
+                <td>42</td>
+                <td>56</td>
+                <td>-14</td>
+                <td><strong>40</strong></td>
+            </tr>
+            
+            <tr>
+                <td>10</td>
+                <td class="team-name">1. FSV Mainz 05</td>
+                <td>32</td>
+                <td>9</td>
+                <td>10</td>
+                <td>13</td>
+                <td>41</td>
+                <td>50</td>
+                <td>-9</td>
+                <td><strong>37</strong></td>
+            </tr>
+            
+            <tr>
+                <td>11</td>
+                <td class="team-name">Borussia Mönchengladbach</td>
+                <td>32</td>
+                <td>8</td>
+                <td>11</td>
+                <td>13</td>
+                <td>37</td>
+                <td>50</td>
+                <td>-13</td>
+                <td><strong>35</strong></td>
+            </tr>
+            
+            <tr>
+                <td>12</td>
+                <td class="team-name">Hamburger SV</td>
+                <td>32</td>
+                <td>8</td>
+                <td>10</td>
+                <td>14</td>
+                <td>36</td>
+                <td>51</td>
+                <td>-15</td>
+                <td><strong>34</strong></td>
+            </tr>
+            
+            <tr>
+                <td>13</td>
+                <td class="team-name">1. FC Union Berlin</td>
+                <td>32</td>
+                <td>8</td>
+                <td>9</td>
+                <td>15</td>
+                <td>37</td>
+                <td>57</td>
+                <td>-20</td>
+                <td><strong>33</strong></td>
+            </tr>
+            
+            <tr>
+                <td>14</td>
+                <td class="team-name">1. FC Köln</td>
+                <td>32</td>
+                <td>7</td>
+                <td>11</td>
+                <td>14</td>
+                <td>47</td>
+                <td>55</td>
+                <td>-8</td>
+                <td><strong>32</strong></td>
+            </tr>
+            
+            <tr>
+                <td>15</td>
+                <td class="team-name">SV Werder Bremen</td>
+                <td>32</td>
+                <td>8</td>
+                <td>8</td>
+                <td>16</td>
+                <td>37</td>
+                <td>57</td>
+                <td>-20</td>
+                <td><strong>32</strong></td>
+            </tr>
+            
+            <tr>
+                <td>16</td>
+                <td class="team-name">SC Paderborn 07</td>
+                <td>11</td>
+                <td>8</td>
+                <td>2</td>
+                <td>1</td>
+                <td>19</td>
+                <td>10</td>
+                <td>9</td>
+                <td><strong>26</strong></td>
+            </tr>
+            
+            <tr>
+                <td>17</td>
+                <td class="team-name">VfL Wolfsburg</td>
+                <td>32</td>
+                <td>6</td>
+                <td>8</td>
+                <td>18</td>
+                <td>42</td>
+                <td>67</td>
+                <td>-25</td>
+                <td><strong>26</strong></td>
+            </tr>
+            
+            <tr>
+                <td>18</td>
+                <td class="team-name">FC St. Pauli 1910</td>
+                <td>32</td>
+                <td>6</td>
+                <td>8</td>
+                <td>18</td>
+                <td>27</td>
+                <td>55</td>
+                <td>-28</td>
+                <td><strong>26</strong></td>
+            </tr>
+            
+            <tr>
+                <td>19</td>
+                <td class="team-name">FC Schalke 04</td>
+                <td>11</td>
+                <td>8</td>
+                <td>0</td>
+                <td>3</td>
+                <td>15</td>
+                <td>7</td>
+                <td>8</td>
+                <td><strong>24</strong></td>
+            </tr>
+            
+            <tr>
+                <td>20</td>
+                <td class="team-name">SV 07 Elversberg</td>
+                <td>11</td>
+                <td>7</td>
+                <td>2</td>
+                <td>2</td>
+                <td>24</td>
+                <td>10</td>
+                <td>14</td>
+                <td><strong>23</strong></td>
+            </tr>
+            
+            <tr>
+                <td>21</td>
+                <td class="team-name">1. FC Heidenheim 1846</td>
+                <td>32</td>
+                <td>5</td>
+                <td>8</td>
+                <td>19</td>
+                <td>38</td>
+                <td>69</td>
+                <td>-31</td>
+                <td><strong>23</strong></td>
+            </tr>
+            
+            <tr>
+                <td>22</td>
+                <td class="team-name">Hannover 96</td>
+                <td>11</td>
+                <td>6</td>
+                <td>3</td>
+                <td>2</td>
+                <td>20</td>
+                <td>15</td>
+                <td>5</td>
+                <td><strong>21</strong></td>
+            </tr>
+            
+            <tr>
+                <td>23</td>
+                <td class="team-name">Karlsruher SC</td>
+                <td>11</td>
+                <td>6</td>
+                <td>3</td>
+                <td>2</td>
+                <td>19</td>
+                <td>14</td>
+                <td>5</td>
+                <td><strong>21</strong></td>
+            </tr>
+            
+            <tr>
+                <td>24</td>
+                <td class="team-name">1. FC Kaiserslautern</td>
+                <td>11</td>
+                <td>6</td>
+                <td>2</td>
+                <td>3</td>
+                <td>20</td>
+                <td>13</td>
+                <td>7</td>
+                <td><strong>20</strong></td>
+            </tr>
+            
+            <tr>
+                <td>25</td>
+                <td class="team-name">SV Darmstadt 98</td>
+                <td>11</td>
+                <td>5</td>
+                <td>4</td>
+                <td>2</td>
+                <td>16</td>
+                <td>9</td>
+                <td>7</td>
+                <td><strong>19</strong></td>
+            </tr>
+            
+            <tr>
+                <td>26</td>
+                <td class="team-name">Hertha BSC</td>
+                <td>11</td>
+                <td>5</td>
+                <td>2</td>
+                <td>4</td>
+                <td>14</td>
+                <td>10</td>
+                <td>4</td>
+                <td><strong>17</strong></td>
+            </tr>
+            
+            <tr>
+                <td>27</td>
+                <td class="team-name">Arminia Bielefeld</td>
+                <td>11</td>
+                <td>4</td>
+                <td>2</td>
+                <td>5</td>
+                <td>21</td>
+                <td>18</td>
+                <td>3</td>
+                <td><strong>14</strong></td>
+            </tr>
+            
+            <tr>
+                <td>28</td>
+                <td class="team-name">Preußen Münster</td>
+                <td>11</td>
+                <td>4</td>
+                <td>2</td>
+                <td>5</td>
+                <td>17</td>
+                <td>20</td>
+                <td>-3</td>
+                <td><strong>14</strong></td>
+            </tr>
+            
+            <tr>
+                <td>29</td>
+                <td class="team-name">Holstein Kiel</td>
+                <td>11</td>
+                <td>3</td>
+                <td>3</td>
+                <td>5</td>
+                <td>12</td>
+                <td>12</td>
+                <td>0</td>
+                <td><strong>12</strong></td>
+            </tr>
+            
+            <tr>
+                <td>30</td>
+                <td class="team-name">1. FC Nürnberg</td>
+                <td>11</td>
+                <td>3</td>
+                <td>3</td>
+                <td>5</td>
+                <td>11</td>
+                <td>15</td>
+                <td>-4</td>
+                <td><strong>12</strong></td>
+            </tr>
+            
+            <tr>
+                <td>31</td>
+                <td class="team-name">Fortuna Düsseldorf</td>
+                <td>11</td>
+                <td>3</td>
+                <td>2</td>
+                <td>6</td>
+                <td>10</td>
+                <td>19</td>
+                <td>-9</td>
+                <td><strong>11</strong></td>
+            </tr>
+            
+            <tr>
+                <td>32</td>
+                <td class="team-name">VfL Bochum</td>
+                <td>11</td>
+                <td>3</td>
+                <td>1</td>
+                <td>7</td>
+                <td>14</td>
+                <td>18</td>
+                <td>-4</td>
+                <td><strong>10</strong></td>
+            </tr>
+            
+            <tr>
+                <td>33</td>
+                <td class="team-name">Eintracht Braunschweig</td>
+                <td>11</td>
+                <td>3</td>
+                <td>1</td>
+                <td>7</td>
+                <td>12</td>
+                <td>22</td>
+                <td>-10</td>
+                <td><strong>10</strong></td>
+            </tr>
+            
+            <tr>
+                <td>34</td>
+                <td class="team-name">SpVgg Greuther Fürth</td>
+                <td>11</td>
+                <td>3</td>
+                <td>1</td>
+                <td>7</td>
+                <td>17</td>
+                <td>30</td>
+                <td>-13</td>
+                <td><strong>10</strong></td>
+            </tr>
+            
+            <tr>
+                <td>35</td>
+                <td class="team-name">Dynamo Dresden</td>
+                <td>11</td>
+                <td>1</td>
+                <td>4</td>
+                <td>6</td>
+                <td>15</td>
+                <td>22</td>
+                <td>-7</td>
+                <td><strong>7</strong></td>
+            </tr>
+            
+            <tr>
+                <td>36</td>
+                <td class="team-name">1. FC Magdeburg</td>
+                <td>11</td>
+                <td>2</td>
+                <td>1</td>
+                <td>8</td>
+                <td>9</td>
+                <td>21</td>
+                <td>-12</td>
+                <td><strong>7</strong></td>
+            </tr>
+            </tbody>
                 </table>
             </div>
         </div>
@@ -77,12 +2705,529 @@
             <div class="table-responsive">
                 <table class="table table-striped table-hover">
                     <thead>
-                        <tr>
-                            <th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th>
-                            <th>进球</th><th>失球</th><th>净胜球</th><th>积分</th>
-                        </tr>
+                        <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>进球</th><th>失球</th><th>净胜球</th><th>积分</th></tr>
                     </thead>
-                    <tbody></tbody>
+                    <tbody>
+            <tr>
+                <td>1</td>
+                <td class="team-name">FC Internazionale Milano</td>
+                <td>35</td>
+                <td>26</td>
+                <td>4</td>
+                <td>5</td>
+                <td>82</td>
+                <td>31</td>
+                <td>51</td>
+                <td><strong>82</strong></td>
+            </tr>
+            
+            <tr>
+                <td>2</td>
+                <td class="team-name">SSC Napoli</td>
+                <td>35</td>
+                <td>21</td>
+                <td>7</td>
+                <td>7</td>
+                <td>52</td>
+                <td>33</td>
+                <td>19</td>
+                <td><strong>70</strong></td>
+            </tr>
+            
+            <tr>
+                <td>3</td>
+                <td class="team-name">Venezia FC</td>
+                <td>31</td>
+                <td>20</td>
+                <td>7</td>
+                <td>4</td>
+                <td>63</td>
+                <td>26</td>
+                <td>37</td>
+                <td><strong>67</strong></td>
+            </tr>
+            
+            <tr>
+                <td>4</td>
+                <td class="team-name">AC Milan</td>
+                <td>35</td>
+                <td>19</td>
+                <td>10</td>
+                <td>6</td>
+                <td>48</td>
+                <td>29</td>
+                <td>19</td>
+                <td><strong>67</strong></td>
+            </tr>
+            
+            <tr>
+                <td>5</td>
+                <td class="team-name">Juventus FC</td>
+                <td>35</td>
+                <td>18</td>
+                <td>11</td>
+                <td>6</td>
+                <td>58</td>
+                <td>30</td>
+                <td>28</td>
+                <td><strong>65</strong></td>
+            </tr>
+            
+            <tr>
+                <td>6</td>
+                <td class="team-name">AC Monza</td>
+                <td>31</td>
+                <td>19</td>
+                <td>7</td>
+                <td>5</td>
+                <td>49</td>
+                <td>25</td>
+                <td>24</td>
+                <td><strong>64</strong></td>
+            </tr>
+            
+            <tr>
+                <td>7</td>
+                <td class="team-name">AS Roma</td>
+                <td>35</td>
+                <td>20</td>
+                <td>4</td>
+                <td>11</td>
+                <td>52</td>
+                <td>29</td>
+                <td>23</td>
+                <td><strong>64</strong></td>
+            </tr>
+            
+            <tr>
+                <td>8</td>
+                <td class="team-name">Como 1907</td>
+                <td>35</td>
+                <td>17</td>
+                <td>11</td>
+                <td>7</td>
+                <td>59</td>
+                <td>28</td>
+                <td>31</td>
+                <td><strong>62</strong></td>
+            </tr>
+            
+            <tr>
+                <td>9</td>
+                <td class="team-name">Frosinone Calcio</td>
+                <td>31</td>
+                <td>17</td>
+                <td>11</td>
+                <td>3</td>
+                <td>59</td>
+                <td>31</td>
+                <td>28</td>
+                <td><strong>62</strong></td>
+            </tr>
+            
+            <tr>
+                <td>10</td>
+                <td class="team-name">Palermo FC</td>
+                <td>31</td>
+                <td>16</td>
+                <td>10</td>
+                <td>5</td>
+                <td>51</td>
+                <td>27</td>
+                <td>24</td>
+                <td><strong>58</strong></td>
+            </tr>
+            
+            <tr>
+                <td>11</td>
+                <td class="team-name">Atalanta BC</td>
+                <td>35</td>
+                <td>14</td>
+                <td>13</td>
+                <td>8</td>
+                <td>47</td>
+                <td>32</td>
+                <td>15</td>
+                <td><strong>55</strong></td>
+            </tr>
+            
+            <tr>
+                <td>12</td>
+                <td class="team-name">US Catanzaro</td>
+                <td>30</td>
+                <td>14</td>
+                <td>10</td>
+                <td>6</td>
+                <td>48</td>
+                <td>35</td>
+                <td>13</td>
+                <td><strong>52</strong></td>
+            </tr>
+            
+            <tr>
+                <td>13</td>
+                <td class="team-name">SS Lazio</td>
+                <td>35</td>
+                <td>13</td>
+                <td>12</td>
+                <td>10</td>
+                <td>39</td>
+                <td>34</td>
+                <td>5</td>
+                <td><strong>51</strong></td>
+            </tr>
+            
+            <tr>
+                <td>14</td>
+                <td class="team-name">Bologna FC 1909</td>
+                <td>35</td>
+                <td>14</td>
+                <td>7</td>
+                <td>14</td>
+                <td>42</td>
+                <td>41</td>
+                <td>1</td>
+                <td><strong>49</strong></td>
+            </tr>
+            
+            <tr>
+                <td>15</td>
+                <td class="team-name">US Sassuolo Calcio</td>
+                <td>35</td>
+                <td>14</td>
+                <td>7</td>
+                <td>14</td>
+                <td>43</td>
+                <td>44</td>
+                <td>-1</td>
+                <td><strong>49</strong></td>
+            </tr>
+            
+            <tr>
+                <td>16</td>
+                <td class="team-name">Modena FC</td>
+                <td>30</td>
+                <td>13</td>
+                <td>8</td>
+                <td>9</td>
+                <td>40</td>
+                <td>24</td>
+                <td>16</td>
+                <td><strong>47</strong></td>
+            </tr>
+            
+            <tr>
+                <td>17</td>
+                <td class="team-name">Udinese Calcio</td>
+                <td>35</td>
+                <td>13</td>
+                <td>8</td>
+                <td>14</td>
+                <td>43</td>
+                <td>46</td>
+                <td>-3</td>
+                <td><strong>47</strong></td>
+            </tr>
+            
+            <tr>
+                <td>18</td>
+                <td class="team-name">Juve Stabia</td>
+                <td>31</td>
+                <td>9</td>
+                <td>15</td>
+                <td>7</td>
+                <td>35</td>
+                <td>37</td>
+                <td>-2</td>
+                <td><strong>42</strong></td>
+            </tr>
+            
+            <tr>
+                <td>19</td>
+                <td class="team-name">Parma Calcio 1913</td>
+                <td>35</td>
+                <td>10</td>
+                <td>12</td>
+                <td>13</td>
+                <td>25</td>
+                <td>42</td>
+                <td>-17</td>
+                <td><strong>42</strong></td>
+            </tr>
+            
+            <tr>
+                <td>20</td>
+                <td class="team-name">Genoa CFC</td>
+                <td>35</td>
+                <td>10</td>
+                <td>10</td>
+                <td>15</td>
+                <td>40</td>
+                <td>48</td>
+                <td>-8</td>
+                <td><strong>40</strong></td>
+            </tr>
+            
+            <tr>
+                <td>21</td>
+                <td class="team-name">Cesena FC</td>
+                <td>31</td>
+                <td>11</td>
+                <td>7</td>
+                <td>13</td>
+                <td>38</td>
+                <td>46</td>
+                <td>-8</td>
+                <td><strong>40</strong></td>
+            </tr>
+            
+            <tr>
+                <td>22</td>
+                <td class="team-name">Torino FC</td>
+                <td>35</td>
+                <td>11</td>
+                <td>7</td>
+                <td>17</td>
+                <td>39</td>
+                <td>59</td>
+                <td>-20</td>
+                <td><strong>40</strong></td>
+            </tr>
+            
+            <tr>
+                <td>23</td>
+                <td class="team-name">US Avellino</td>
+                <td>31</td>
+                <td>10</td>
+                <td>9</td>
+                <td>12</td>
+                <td>36</td>
+                <td>49</td>
+                <td>-13</td>
+                <td><strong>39</strong></td>
+            </tr>
+            
+            <tr>
+                <td>24</td>
+                <td class="team-name">FC Südtirol</td>
+                <td>31</td>
+                <td>8</td>
+                <td>14</td>
+                <td>9</td>
+                <td>33</td>
+                <td>32</td>
+                <td>1</td>
+                <td><strong>38</strong></td>
+            </tr>
+            
+            <tr>
+                <td>25</td>
+                <td class="team-name">ACF Fiorentina</td>
+                <td>35</td>
+                <td>8</td>
+                <td>13</td>
+                <td>14</td>
+                <td>38</td>
+                <td>49</td>
+                <td>-11</td>
+                <td><strong>37</strong></td>
+            </tr>
+            
+            <tr>
+                <td>26</td>
+                <td class="team-name">Cagliari Calcio</td>
+                <td>35</td>
+                <td>9</td>
+                <td>10</td>
+                <td>16</td>
+                <td>36</td>
+                <td>49</td>
+                <td>-13</td>
+                <td><strong>37</strong></td>
+            </tr>
+            
+            <tr>
+                <td>27</td>
+                <td class="team-name">Carrarese Calcio</td>
+                <td>31</td>
+                <td>8</td>
+                <td>12</td>
+                <td>11</td>
+                <td>38</td>
+                <td>42</td>
+                <td>-4</td>
+                <td><strong>36</strong></td>
+            </tr>
+            
+            <tr>
+                <td>28</td>
+                <td class="team-name">Calcio Padova</td>
+                <td>31</td>
+                <td>8</td>
+                <td>10</td>
+                <td>13</td>
+                <td>32</td>
+                <td>42</td>
+                <td>-10</td>
+                <td><strong>34</strong></td>
+            </tr>
+            
+            <tr>
+                <td>29</td>
+                <td class="team-name">Mantova 1911 SSD</td>
+                <td>31</td>
+                <td>9</td>
+                <td>7</td>
+                <td>15</td>
+                <td>35</td>
+                <td>46</td>
+                <td>-11</td>
+                <td><strong>34</strong></td>
+            </tr>
+            
+            <tr>
+                <td>30</td>
+                <td class="team-name">Empoli FC</td>
+                <td>31</td>
+                <td>7</td>
+                <td>12</td>
+                <td>12</td>
+                <td>39</td>
+                <td>45</td>
+                <td>-6</td>
+                <td><strong>33</strong></td>
+            </tr>
+            
+            <tr>
+                <td>31</td>
+                <td class="team-name">Sampdoria</td>
+                <td>31</td>
+                <td>7</td>
+                <td>10</td>
+                <td>14</td>
+                <td>29</td>
+                <td>42</td>
+                <td>-13</td>
+                <td><strong>31</strong></td>
+            </tr>
+            
+            <tr>
+                <td>32</td>
+                <td class="team-name">SSC Bari</td>
+                <td>31</td>
+                <td>7</td>
+                <td>10</td>
+                <td>14</td>
+                <td>30</td>
+                <td>47</td>
+                <td>-17</td>
+                <td><strong>31</strong></td>
+            </tr>
+            
+            <tr>
+                <td>33</td>
+                <td class="team-name">Virtus Entella</td>
+                <td>31</td>
+                <td>7</td>
+                <td>10</td>
+                <td>14</td>
+                <td>28</td>
+                <td>45</td>
+                <td>-17</td>
+                <td><strong>31</strong></td>
+            </tr>
+            
+            <tr>
+                <td>34</td>
+                <td class="team-name">US Lecce</td>
+                <td>35</td>
+                <td>8</td>
+                <td>7</td>
+                <td>20</td>
+                <td>24</td>
+                <td>48</td>
+                <td>-24</td>
+                <td><strong>31</strong></td>
+            </tr>
+            
+            <tr>
+                <td>35</td>
+                <td class="team-name">Spezia Calcio</td>
+                <td>31</td>
+                <td>7</td>
+                <td>9</td>
+                <td>15</td>
+                <td>30</td>
+                <td>43</td>
+                <td>-13</td>
+                <td><strong>30</strong></td>
+            </tr>
+            
+            <tr>
+                <td>36</td>
+                <td class="team-name">AC Reggiana 1919</td>
+                <td>31</td>
+                <td>7</td>
+                <td>9</td>
+                <td>15</td>
+                <td>30</td>
+                <td>46</td>
+                <td>-16</td>
+                <td><strong>30</strong></td>
+            </tr>
+            
+            <tr>
+                <td>37</td>
+                <td class="team-name">US Cremonese</td>
+                <td>35</td>
+                <td>7</td>
+                <td>9</td>
+                <td>19</td>
+                <td>28</td>
+                <td>53</td>
+                <td>-25</td>
+                <td><strong>30</strong></td>
+            </tr>
+            
+            <tr>
+                <td>38</td>
+                <td class="team-name">Delfino Pescara</td>
+                <td>31</td>
+                <td>6</td>
+                <td>11</td>
+                <td>14</td>
+                <td>41</td>
+                <td>54</td>
+                <td>-13</td>
+                <td><strong>29</strong></td>
+            </tr>
+            
+            <tr>
+                <td>39</td>
+                <td class="team-name">Hellas Verona FC</td>
+                <td>35</td>
+                <td>4</td>
+                <td>10</td>
+                <td>21</td>
+                <td>25</td>
+                <td>57</td>
+                <td>-32</td>
+                <td><strong>22</strong></td>
+            </tr>
+            
+            <tr>
+                <td>40</td>
+                <td class="team-name">AC Pisa 1909</td>
+                <td>35</td>
+                <td>2</td>
+                <td>12</td>
+                <td>21</td>
+                <td>25</td>
+                <td>63</td>
+                <td>-38</td>
+                <td><strong>18</strong></td>
+            </tr>
+            </tbody>
                 </table>
             </div>
         </div>
@@ -91,21 +3236,483 @@
             <div class="table-responsive">
                 <table class="table table-striped table-hover">
                     <thead>
-                        <tr>
-                            <th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th>
-                            <th>进球</th><th>失球</th><th>净胜球</th><th>积分</th>
-                        </tr>
+                        <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>进球</th><th>失球</th><th>净胜球</th><th>积分</th></tr>
                     </thead>
-                    <tbody></tbody>
+                    <tbody>
+            <tr>
+                <td>1</td>
+                <td class="team-name">Paris Saint-Germain FC</td>
+                <td>31</td>
+                <td>22</td>
+                <td>4</td>
+                <td>5</td>
+                <td>70</td>
+                <td>27</td>
+                <td>43</td>
+                <td><strong>70</strong></td>
+            </tr>
+            
+            <tr>
+                <td>2</td>
+                <td class="team-name">Racing Club de Lens</td>
+                <td>31</td>
+                <td>20</td>
+                <td>4</td>
+                <td>7</td>
+                <td>61</td>
+                <td>33</td>
+                <td>28</td>
+                <td><strong>64</strong></td>
+            </tr>
+            
+            <tr>
+                <td>3</td>
+                <td class="team-name">Olympique Lyonnais</td>
+                <td>32</td>
+                <td>18</td>
+                <td>6</td>
+                <td>8</td>
+                <td>52</td>
+                <td>34</td>
+                <td>18</td>
+                <td><strong>60</strong></td>
+            </tr>
+            
+            <tr>
+                <td>4</td>
+                <td class="team-name">Lille OSC</td>
+                <td>32</td>
+                <td>17</td>
+                <td>7</td>
+                <td>8</td>
+                <td>51</td>
+                <td>35</td>
+                <td>16</td>
+                <td><strong>58</strong></td>
+            </tr>
+            
+            <tr>
+                <td>5</td>
+                <td class="team-name">Stade Rennais FC 1901</td>
+                <td>32</td>
+                <td>16</td>
+                <td>8</td>
+                <td>8</td>
+                <td>56</td>
+                <td>46</td>
+                <td>10</td>
+                <td><strong>56</strong></td>
+            </tr>
+            
+            <tr>
+                <td>6</td>
+                <td class="team-name">AS Monaco FC</td>
+                <td>32</td>
+                <td>16</td>
+                <td>6</td>
+                <td>10</td>
+                <td>56</td>
+                <td>48</td>
+                <td>8</td>
+                <td><strong>54</strong></td>
+            </tr>
+            
+            <tr>
+                <td>7</td>
+                <td class="team-name">Olympique de Marseille</td>
+                <td>32</td>
+                <td>16</td>
+                <td>5</td>
+                <td>11</td>
+                <td>59</td>
+                <td>44</td>
+                <td>15</td>
+                <td><strong>53</strong></td>
+            </tr>
+            
+            <tr>
+                <td>8</td>
+                <td class="team-name">RC Strasbourg Alsace</td>
+                <td>31</td>
+                <td>13</td>
+                <td>7</td>
+                <td>11</td>
+                <td>50</td>
+                <td>41</td>
+                <td>9</td>
+                <td><strong>46</strong></td>
+            </tr>
+            
+            <tr>
+                <td>9</td>
+                <td class="team-name">FC Lorient</td>
+                <td>32</td>
+                <td>10</td>
+                <td>12</td>
+                <td>10</td>
+                <td>44</td>
+                <td>49</td>
+                <td>-5</td>
+                <td><strong>42</strong></td>
+            </tr>
+            
+            <tr>
+                <td>10</td>
+                <td class="team-name">Toulouse FC</td>
+                <td>32</td>
+                <td>11</td>
+                <td>8</td>
+                <td>13</td>
+                <td>45</td>
+                <td>45</td>
+                <td>0</td>
+                <td><strong>41</strong></td>
+            </tr>
+            
+            <tr>
+                <td>11</td>
+                <td class="team-name">Paris FC</td>
+                <td>32</td>
+                <td>10</td>
+                <td>11</td>
+                <td>11</td>
+                <td>44</td>
+                <td>47</td>
+                <td>-3</td>
+                <td><strong>41</strong></td>
+            </tr>
+            
+            <tr>
+                <td>12</td>
+                <td class="team-name">Stade Brestois 29</td>
+                <td>31</td>
+                <td>10</td>
+                <td>8</td>
+                <td>13</td>
+                <td>41</td>
+                <td>51</td>
+                <td>-10</td>
+                <td><strong>38</strong></td>
+            </tr>
+            
+            <tr>
+                <td>13</td>
+                <td class="team-name">Angers SCO</td>
+                <td>32</td>
+                <td>9</td>
+                <td>7</td>
+                <td>16</td>
+                <td>27</td>
+                <td>46</td>
+                <td>-19</td>
+                <td><strong>34</strong></td>
+            </tr>
+            
+            <tr>
+                <td>14</td>
+                <td class="team-name">Le Havre AC</td>
+                <td>32</td>
+                <td>6</td>
+                <td>14</td>
+                <td>12</td>
+                <td>30</td>
+                <td>43</td>
+                <td>-13</td>
+                <td><strong>32</strong></td>
+            </tr>
+            
+            <tr>
+                <td>15</td>
+                <td class="team-name">OGC Nice</td>
+                <td>32</td>
+                <td>7</td>
+                <td>10</td>
+                <td>15</td>
+                <td>36</td>
+                <td>58</td>
+                <td>-22</td>
+                <td><strong>31</strong></td>
+            </tr>
+            
+            <tr>
+                <td>16</td>
+                <td class="team-name">ESTAC Troyes</td>
+                <td>13</td>
+                <td>8</td>
+                <td>4</td>
+                <td>1</td>
+                <td>24</td>
+                <td>11</td>
+                <td>13</td>
+                <td><strong>28</strong></td>
+            </tr>
+            
+            <tr>
+                <td>17</td>
+                <td class="team-name">AJ Auxerre</td>
+                <td>32</td>
+                <td>6</td>
+                <td>10</td>
+                <td>16</td>
+                <td>30</td>
+                <td>43</td>
+                <td>-13</td>
+                <td><strong>28</strong></td>
+            </tr>
+            
+            <tr>
+                <td>18</td>
+                <td class="team-name">Red Star FC</td>
+                <td>13</td>
+                <td>8</td>
+                <td>2</td>
+                <td>3</td>
+                <td>19</td>
+                <td>13</td>
+                <td>6</td>
+                <td><strong>26</strong></td>
+            </tr>
+            
+            <tr>
+                <td>19</td>
+                <td class="team-name">AS Saint-Étienne</td>
+                <td>13</td>
+                <td>7</td>
+                <td>2</td>
+                <td>4</td>
+                <td>28</td>
+                <td>19</td>
+                <td>9</td>
+                <td><strong>23</strong></td>
+            </tr>
+            
+            <tr>
+                <td>20</td>
+                <td class="team-name">FC Nantes</td>
+                <td>32</td>
+                <td>5</td>
+                <td>8</td>
+                <td>19</td>
+                <td>29</td>
+                <td>51</td>
+                <td>-22</td>
+                <td><strong>23</strong></td>
+            </tr>
+            
+            <tr>
+                <td>21</td>
+                <td class="team-name">Pau FC</td>
+                <td>13</td>
+                <td>6</td>
+                <td>4</td>
+                <td>3</td>
+                <td>18</td>
+                <td>19</td>
+                <td>-1</td>
+                <td><strong>22</strong></td>
+            </tr>
+            
+            <tr>
+                <td>22</td>
+                <td class="team-name">Montpellier HSC</td>
+                <td>13</td>
+                <td>6</td>
+                <td>3</td>
+                <td>4</td>
+                <td>16</td>
+                <td>12</td>
+                <td>4</td>
+                <td><strong>21</strong></td>
+            </tr>
+            
+            <tr>
+                <td>23</td>
+                <td class="team-name">Le Mans FC</td>
+                <td>13</td>
+                <td>5</td>
+                <td>5</td>
+                <td>3</td>
+                <td>17</td>
+                <td>15</td>
+                <td>2</td>
+                <td><strong>20</strong></td>
+            </tr>
+            
+            <tr>
+                <td>24</td>
+                <td class="team-name">USL Dunkerque</td>
+                <td>13</td>
+                <td>5</td>
+                <td>4</td>
+                <td>4</td>
+                <td>24</td>
+                <td>16</td>
+                <td>8</td>
+                <td><strong>19</strong></td>
+            </tr>
+            
+            <tr>
+                <td>25</td>
+                <td class="team-name">Stade de Reims</td>
+                <td>13</td>
+                <td>5</td>
+                <td>4</td>
+                <td>4</td>
+                <td>23</td>
+                <td>19</td>
+                <td>4</td>
+                <td><strong>19</strong></td>
+            </tr>
+            
+            <tr>
+                <td>26</td>
+                <td class="team-name">EA Guingamp</td>
+                <td>13</td>
+                <td>5</td>
+                <td>4</td>
+                <td>4</td>
+                <td>20</td>
+                <td>22</td>
+                <td>-2</td>
+                <td><strong>19</strong></td>
+            </tr>
+            
+            <tr>
+                <td>27</td>
+                <td class="team-name">FC Annecy</td>
+                <td>13</td>
+                <td>4</td>
+                <td>4</td>
+                <td>5</td>
+                <td>16</td>
+                <td>15</td>
+                <td>1</td>
+                <td><strong>16</strong></td>
+            </tr>
+            
+            <tr>
+                <td>28</td>
+                <td class="team-name">Rodez AF</td>
+                <td>13</td>
+                <td>4</td>
+                <td>4</td>
+                <td>5</td>
+                <td>13</td>
+                <td>18</td>
+                <td>-5</td>
+                <td><strong>16</strong></td>
+            </tr>
+            
+            <tr>
+                <td>29</td>
+                <td class="team-name">FC Metz</td>
+                <td>32</td>
+                <td>3</td>
+                <td>7</td>
+                <td>22</td>
+                <td>32</td>
+                <td>72</td>
+                <td>-40</td>
+                <td><strong>16</strong></td>
+            </tr>
+            
+            <tr>
+                <td>30</td>
+                <td class="team-name">Amiens SC</td>
+                <td>13</td>
+                <td>4</td>
+                <td>3</td>
+                <td>6</td>
+                <td>17</td>
+                <td>20</td>
+                <td>-3</td>
+                <td><strong>15</strong></td>
+            </tr>
+            
+            <tr>
+                <td>31</td>
+                <td class="team-name">AS Nancy Lorraine</td>
+                <td>13</td>
+                <td>4</td>
+                <td>3</td>
+                <td>6</td>
+                <td>13</td>
+                <td>17</td>
+                <td>-4</td>
+                <td><strong>15</strong></td>
+            </tr>
+            
+            <tr>
+                <td>32</td>
+                <td class="team-name">Grenoble Foot 38</td>
+                <td>13</td>
+                <td>3</td>
+                <td>5</td>
+                <td>5</td>
+                <td>14</td>
+                <td>16</td>
+                <td>-2</td>
+                <td><strong>14</strong></td>
+            </tr>
+            
+            <tr>
+                <td>33</td>
+                <td class="team-name">Clermont Foot 63</td>
+                <td>13</td>
+                <td>3</td>
+                <td>5</td>
+                <td>5</td>
+                <td>11</td>
+                <td>16</td>
+                <td>-5</td>
+                <td><strong>14</strong></td>
+            </tr>
+            
+            <tr>
+                <td>34</td>
+                <td class="team-name">US Boulogne</td>
+                <td>13</td>
+                <td>3</td>
+                <td>2</td>
+                <td>8</td>
+                <td>12</td>
+                <td>21</td>
+                <td>-9</td>
+                <td><strong>11</strong></td>
+            </tr>
+            
+            <tr>
+                <td>35</td>
+                <td class="team-name">Stade Lavallois</td>
+                <td>12</td>
+                <td>1</td>
+                <td>6</td>
+                <td>5</td>
+                <td>8</td>
+                <td>15</td>
+                <td>-7</td>
+                <td><strong>9</strong></td>
+            </tr>
+            
+            <tr>
+                <td>36</td>
+                <td class="team-name">SC Bastia</td>
+                <td>12</td>
+                <td>1</td>
+                <td>4</td>
+                <td>7</td>
+                <td>5</td>
+                <td>14</td>
+                <td>-9</td>
+                <td><strong>7</strong></td>
+            </tr>
+            </tbody>
                 </table>
             </div>
         </div>
         
     </div>
-
-    <footer>
-        © 烽域·星舟 | 数据来源：football.json 开源项目
-    </footer>
+    <footer>© 烽域·星舟 | 数据来源：football.json 开源项目</footer>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
